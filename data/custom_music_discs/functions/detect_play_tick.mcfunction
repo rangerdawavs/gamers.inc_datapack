@@ -1,0 +1,1 @@
+execute if entity @a[scores={usedDisc=1..}] run function custom_music_discs:detect_play_var
