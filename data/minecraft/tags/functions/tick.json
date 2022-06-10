@@ -3,6 +3,7 @@
 		"custom_music_discs:detect_disc_tick",
 		"custom_music_discs:detect_play_tick",
 		"custom_music_discs:detect_stop_tick",
-		"spawn_tp:enable_spawntp_tick"
+		"spawn_tp:enable_spawntp_tick",
+		"spawn_tp:detect_trigger"
 	]
 }
