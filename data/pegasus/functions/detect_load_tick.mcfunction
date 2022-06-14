@@ -1,0 +1,1 @@
+execute as @a at @s if score @s horse_load matches 1 run function pegasus:load_horse
