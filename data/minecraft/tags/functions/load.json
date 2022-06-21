@@ -1,5 +1,6 @@
 {
 	"values": [
-		"custom_music_discs:setup_load"
+		"custom_music_discs:setup_load",
+		"spawn_tp:setup_load"
 	]
 }
