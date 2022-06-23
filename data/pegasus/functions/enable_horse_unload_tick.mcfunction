@@ -1,0 +1,1 @@
+scoreboard players enable @a horse_unload

@@ -3,6 +3,10 @@
 		"custom_music_discs:detect_disc_tick",
 		"custom_music_discs:detect_play_tick",
 		"custom_music_discs:detect_stop_tick",
+		"pegasus:detect_load_tick",
+		"pegasus:enable_horse_load_tick",
+		"pegasus:detect_unload_tick",
+		"pegasus:enable_horse_unload_tick",
 		"spawn_tp:enable_spawntp_tick",
 		"spawn_tp:detect_trigger"
 	]
