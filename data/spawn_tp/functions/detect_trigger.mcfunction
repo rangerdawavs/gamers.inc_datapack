@@ -1,0 +1,1 @@
+execute as @a if score @s spawn_tp matches 1 run function spawn_tp:teleport
