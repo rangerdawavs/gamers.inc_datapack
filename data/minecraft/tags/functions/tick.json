@@ -10,6 +10,7 @@
 		"spawn_tp:enable_spawntp_tick",
 		"spawn_tp:detect_trigger",
 		"creative_zone:enable_creatent_tick",
-		"creative_zone:detect_trigger"
+		"creative_zone:detect_trigger",
+		"creative_zone:wrong_area_detection_tick"
 	]
 }
