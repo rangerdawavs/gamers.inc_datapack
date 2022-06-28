@@ -1,0 +1,1 @@
+execute as @a if score @s creatent matches 1 run function creative_zone:creative_off
