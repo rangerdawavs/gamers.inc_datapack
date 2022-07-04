@@ -30,33 +30,36 @@
     {
       "rolls": 1,
       "entries": [
-		{
-		  "type": "minecraft:tag",
-		  "weight": 1,
-		  "name": "minecraft:music_discs",
+        {
+          "type": "minecraft:tag",
+          "weight": 1,
+          "name": "minecraft:music_discs",
           "expand": true
-		},
+        }
+      ],
+      "conditions": [
         {
-          "type": "minecraft:item",
-		  "weight": 1,
-		  "name": "minecraft:music_disc_11",
-		  "functions": [
-			{
-				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:1, HideFlags:32, display:{Lore:[\"\\\"§7Moorziey - Demise\\\"\"]}}"
-			}
-		  ]
-        },
+          "condition": "minecraft:entity_properties",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          },
+          "entity": "killer"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "type": "minecraft:item",
-		  "weight": 1,
-          "name": "minecraft:music_disc_11",
-		  "functions": [
-			{
-				"function": "minecraft:set_nbt",
-				"tag": "{CustomModelData:2, HideFlags:32, display:{Lore:[\"\\\"§7worldpeace - Medivo\\\"\"]}}"
-			}
-		  ]
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:4}"
+            }
+          ]
         }
       ],
       "conditions": [
