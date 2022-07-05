@@ -33,7 +33,7 @@
         {
           "type": "minecraft:tag",
           "weight": 1,
-          "name": "minecraft:music_discs",
+          "name": "minecraft:creeper_drop_music_discs",
           "expand": true
         }
       ],
@@ -57,7 +57,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:4}"
+              "tag": "{display:{Name:'{\"text\":\"Blank Disc\",\"italic\":false}',Lore:['{\"text\":\"can be redeemed at the music shop\"}']},CustomModelData:4}"
             }
           ]
         }
