@@ -12,3 +12,6 @@ allows discs with CustomModelData to play custom songs.
 
 ## creative zone
 provides functionality for adding a creative zone in a survival world
+
+## structures_test1
+Test for custom structures in datapacks
