@@ -1,0 +1,6 @@
+function elemental_powers:passive_fire_type
+function elemental_powers:passive_electric_type
+function elemental_powers:passive_dark_type
+function elemental_powers:passive_ground_type
+function elemental_powers:passive_metal_type
+function elemental_powers:passive_water_type
