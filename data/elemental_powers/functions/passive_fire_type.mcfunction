@@ -1,1 +1,1 @@
-execute as @a[tag=fire_type] run effect give @s fire_resistance 1000 0 false
+execute as @a[tag=fire_type] run effect give @s fire_resistance 1000 0 true

@@ -1,1 +1,1 @@
-execute as @a[tag=dark_type] run effect give @s speed 1000 0 false
+execute as @a[tag=dark_type] run effect give @s speed 1000 0 true

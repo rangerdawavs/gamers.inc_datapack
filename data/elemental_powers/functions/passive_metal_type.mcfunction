@@ -1,1 +1,1 @@
-execute as @a[tag=metal_type] run effect give @s strength 1000 0 false
+execute as @a[tag=metal_type] run effect give @s strength 1000 0 true
