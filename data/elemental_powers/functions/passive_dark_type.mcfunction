@@ -1,1 +1,1 @@
-execute as @a[tag=dark_type] run effect give @s speed 1000 0 true
+execute as @a[tag=dark_type] run effect give @s night_vision 1000 0 true
