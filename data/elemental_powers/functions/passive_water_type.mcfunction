@@ -1,1 +1,1 @@
-execute as @a[tag=water_type] run effect give @s water_breathing 1000 0 true
+execute as @a[tag=water_type] run effect give @s conduit_power 1000 0 true
