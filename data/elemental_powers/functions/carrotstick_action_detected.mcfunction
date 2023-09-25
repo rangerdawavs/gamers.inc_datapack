@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] if entity @s[tag=air_type] run function elemental_powers:active_air_type_floaty_jump
+scoreboard players set @s CarrotStick_action 0

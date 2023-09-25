@@ -1,0 +1,1 @@
+scoreboard objectives add CarrotStick_action used:carrot_on_a_stick
