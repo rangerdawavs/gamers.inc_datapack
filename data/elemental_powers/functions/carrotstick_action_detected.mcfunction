@@ -1,2 +1,3 @@
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] if entity @s[tag=air_type] run function elemental_powers:active_air_type_floaty_jump
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] if entity @s[tag=air_type] if entity @s[nbt={SelectedItem:{tag:{CustomModelData:2}}}] run function elemental_powers:active_air_type_floaty_jump
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] if entity @s[tag=psychic_type] if entity @s[nbt={SelectedItem:{tag:{CustomModelData:3}}}] run function elemental_powers:active_psychic_type_scan
 scoreboard players set @s CarrotStick_action 0
