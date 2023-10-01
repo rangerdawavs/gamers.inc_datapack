@@ -1,1 +1,1 @@
-execute as @a[tag=electric_type] run effect give @s speed 1000 0 true
+effect give @s speed 1000 0 true
