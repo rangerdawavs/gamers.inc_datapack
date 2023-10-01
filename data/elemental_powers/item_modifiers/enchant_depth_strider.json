@@ -1,0 +1,6 @@
+{
+    "function":"set_enchantments",
+    "enchantments":{
+        "depth_strider":3
+    }
+}

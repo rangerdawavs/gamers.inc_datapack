@@ -1,0 +1,1 @@
+execute as @a[tag=water_type] if score @s channel_aqua_affinity matches 1 run function elemental_powers:channel_aqua_affinity
