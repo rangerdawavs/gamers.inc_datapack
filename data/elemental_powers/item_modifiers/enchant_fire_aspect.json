@@ -1,6 +1,6 @@
 {
     "function":"set_enchantments",
     "enchantments":{
-        "aqua_affinity":2
+        "fire_aspect":2
     }
 }
