@@ -2,5 +2,7 @@ scoreboard objectives add CarrotStick_action used:carrot_on_a_stick
 scoreboard objectives add elemental_level dummy
 scoreboard objectives add power1_delay dummy
 scoreboard objectives add channel_aqua_affinity trigger
+scoreboard objectives add channel_depth_strider trigger
+scoreboard objectives add channel_fire_aspect trigger
 function elemental_powers:delayed_20_tick
 function elemental_powers:delayed_1_minute_tick
