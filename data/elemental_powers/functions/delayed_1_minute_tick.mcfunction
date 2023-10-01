@@ -1,0 +1,2 @@
+execute as @a[tag=!water_type] if entity @s[nbt={Inventory:[{Slot:100b,tag:{display:{Lore:['{"text":"water type"}']}}}]}] run item modify entity @s armor.feet elemental_powers:disen_depth_strider
+schedule function elemental_powers:delayed_1_minute_tick 60s
