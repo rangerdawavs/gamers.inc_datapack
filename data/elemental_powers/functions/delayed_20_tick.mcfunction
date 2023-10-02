@@ -7,4 +7,5 @@ execute as @a if score @s power1_delay matches 1 run tellraw @s "power 1 recharg
 execute as @a if score @s power1_delay matches 1.. run scoreboard players remove @s power1_delay 1
 execute as @a if score @s power2_delay matches 1 run tellraw @s "power 2 recharged"
 execute as @a if score @s power2_delay matches 1.. run scoreboard players remove @s power2_delay 1
+execute as @a[tag=water_type] if score @s elemental_level matches 2.. at @s if block ~ ~ ~ water run effect give @s regeneration 5 1 true
 schedule function elemental_powers:delayed_20_tick 20t
