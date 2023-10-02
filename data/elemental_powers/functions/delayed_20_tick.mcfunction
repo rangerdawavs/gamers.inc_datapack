@@ -5,4 +5,6 @@ execute as @a[tag=fire_type] if score @s elemental_level matches 1.. at @s if bl
 execute as @a[tag=fire_type] if score @s elemental_level matches 1.. at @s if block ~ ~ ~ lava run effect give @s regeneration 5 1 true
 execute as @a if score @s power1_delay matches 1 run tellraw @s "power 1 recharged"
 execute as @a if score @s power1_delay matches 1.. run scoreboard players remove @s power1_delay 1
+execute as @a if score @s power2_delay matches 1 run tellraw @s "power 2 recharged"
+execute as @a if score @s power2_delay matches 1.. run scoreboard players remove @s power2_delay 1
 schedule function elemental_powers:delayed_20_tick 20t

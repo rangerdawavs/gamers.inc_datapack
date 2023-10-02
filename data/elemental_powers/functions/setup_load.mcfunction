@@ -5,5 +5,6 @@ scoreboard objectives add channel_aqua_affinity trigger
 scoreboard objectives add channel_depth_strider trigger
 scoreboard objectives add channel_fire_aspect trigger
 scoreboard objectives add grass_vine_distance dummy
+scoreboard objectives add power2_delay dummy
 function elemental_powers:delayed_20_tick
 function elemental_powers:delayed_1_minute_tick
