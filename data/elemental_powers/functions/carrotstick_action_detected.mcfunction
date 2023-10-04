@@ -6,4 +6,5 @@ execute if entity @s[tag=electric_type] if score @s elemental_level matches 2.. 
 execute if entity @s[tag=electric_type] if score @s elemental_level matches 3.. if entity @s[nbt={SelectedItem:{tag:{CustomModelData:8}}}] run function elemental_powers:active_electric_type_lightningstorm_strike_activated
 execute if entity @s[tag=fire_type] if score @s elemental_level matches 4.. if entity @s[nbt={SelectedItem:{tag:{CustomModelData:7}}}] run function elemental_powers:active_fire_type_fireball_activated
 execute if entity @s[tag=water_type] if score @s elemental_level matches 2.. if entity @s[nbt={SelectedItem:{tag:{CustomModelData:9}}}] run function elemental_powers:active_water_type_dolphin_grace_activated
+execute if entity @s[tag=grass_type] if score @s elemental_level matches 3.. if entity @s[nbt={SelectedItem:{tag:{CustomModelData:10}}}] run function elemental_powers:active_grass_type_healing_activated
 scoreboard players set @s CarrotStick_action 0

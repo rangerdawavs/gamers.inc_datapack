@@ -1,0 +1,2 @@
+execute at @s run summon area_effect_cloud ~ ~ ~ {Particle:spore_blossom_air,Color:8439583,Radius:5,Duration:140,Effects:[{Id:10,Duration:100,Amplifier:0,ShowParticles:1b,ShowIcon:1}]}
+scoreboard players set @s power1_delay 20
