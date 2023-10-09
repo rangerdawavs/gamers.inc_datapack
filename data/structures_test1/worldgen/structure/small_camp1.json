@@ -1,13 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "forest", "flower_forest", "birch_forest", "old_growth_birch_forest", "dark_forest", "grove",
-    "windswept_hills", "windswept_forest", "windswept_gravelly_hills",
-    "bamboo_jungle", "jungle", "sparse_jungle",
-    "savanna", "savanna_plateau", "windswept_savanna",
-    "taiga", "snowy_taiga", "old_growth_pine_taiga", "old_growth_spruce_taiga",
-    "swamp", "mangrove_swamp"
-  ],
+  "biomes": "#structures_test1:has_structure/small_camp1",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
