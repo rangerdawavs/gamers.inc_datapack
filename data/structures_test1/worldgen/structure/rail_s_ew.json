@@ -10,7 +10,7 @@
   ],
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_thin",
   "start_pool": "structures_test1:rail_s_ew",
   "size": 1,
   "start_height": {
