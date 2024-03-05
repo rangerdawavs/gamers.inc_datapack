@@ -10,11 +10,11 @@
   ],
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_thin",
-  "start_pool": "structures_test1:rail_s_ew",
+  "terrain_adaptation": "none",
+  "start_pool": "structures_test1:decorated_rail_1_s_ew",
   "size": 1,
   "start_height": {
-    "absolute": 1
+    "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 80,
