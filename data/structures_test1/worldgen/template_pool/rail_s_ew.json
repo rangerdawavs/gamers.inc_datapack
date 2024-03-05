@@ -1,12 +1,12 @@
 {
-  "name": "structures_test1:rail_s_ns",
+  "name": "structures_test1:rail_s_ew",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "structures_test1:rail_s_ns",
+        "location": "structures_test1:rail_s_ew",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
