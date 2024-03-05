@@ -1,0 +1,15 @@
+{
+  "name": "structures_test1:rail_s_ns",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "structures_test1:rail_s_ns",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
