@@ -11,8 +11,8 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",
-  "start_pool": "structures_test1:decorated_rail_1_s_ew",
-  "size": 1,
+  "start_pool": "structures_test1:decorated_rail_1_stat_ew",
+  "size": 7,
   "start_height": {
     "absolute": 0
   },
