@@ -22,11 +22,20 @@
                         "block": "polished_blackstone_bricks"
                     },
                     "location_predicate": {
-                        "predicate_type": "always_true"
+                        "predicate_type": "block_match",
+                        "block": "water"
                     },
                     "output_state": {
-                        "Name": "structure_void"
+                        "Name": "deepslate_bricks"
                     }
+                }
+            ]
+        },
+        {
+            "processor_type": "block_ignore",
+            "blocks": [
+                {
+                    "Name": "polished_blackstone_bricks"
                 }
             ]
         }
