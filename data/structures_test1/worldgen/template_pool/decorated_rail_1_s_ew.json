@@ -1,6 +1,6 @@
 {
   "name": "structures_test1:decorated_rail_1_s_ew",
-  "fallback": "structures_test1:decorated_rail_1_s_ew",
+  "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "structures_test1:decorated_rail_1_s_ew",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "structures_test1:elevated_rail_pillars1"
       }
     }
   ]
