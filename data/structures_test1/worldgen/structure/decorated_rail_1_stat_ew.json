@@ -6,7 +6,8 @@
     "bamboo_jungle", "jungle", "sparse_jungle",
     "savanna", "savanna_plateau", "windswept_savanna",
     "taiga", "snowy_taiga", "old_growth_pine_taiga", "old_growth_spruce_taiga",
-    "swamp", "mangrove_swamp"
+    "swamp", "mangrove_swamp",
+    "jagged_peaks", "frozen_peaks", "stony_peaks"
   ],
   "step": "surface_structures",
   "spawn_overrides": {},

@@ -1,6 +1,6 @@
 {
   "name": "structures_test1:decorated_rail_1_s_ew",
-  "fallback": "minecraft:empty",
+  "fallback": "structures_test1:decorated_rail_1_s_ew",
   "elements": [
     {
       "weight": 1,
