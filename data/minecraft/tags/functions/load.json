@@ -4,6 +4,7 @@
 		"pegasus:setup_load",
 		"spawn_tp:setup_load",
 		"creative_zone:setup_load",
-		"elemental_powers:setup_load"
+		"elemental_powers:setup_load",
+		"rail_builder:setup_load"
 	]
 }
