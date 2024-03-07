@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "structures_test1:days_house_4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 32,
+    "salt": 85739
+  }
+}
