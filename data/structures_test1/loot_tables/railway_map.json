@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "exploration_map",
-                            "destination": "structures_test1:decorated_rail_1_stat_ew",
+                            "destination": "igloo",
                             "decoration": "target_x",
                             "zoom": 1,
                             "skip_existing_chunks": false
