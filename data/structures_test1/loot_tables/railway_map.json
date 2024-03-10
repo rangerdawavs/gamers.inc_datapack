@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "structures_test1:decorated_rail_1_stat_ew",
+                            "decoration": "target_x",
+                            "zoom": 1,
+                            "skip_existing_chunks": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
