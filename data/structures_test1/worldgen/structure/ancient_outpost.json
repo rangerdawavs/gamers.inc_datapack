@@ -1,8 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "grove", "jagged_peaks", "frozen_peaks", "stony_peaks","snowy_slopes"
-  ],
+  "biomes": "#structures_test1:has_structure/ancient_outpost",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
