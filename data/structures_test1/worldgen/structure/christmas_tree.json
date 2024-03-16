@@ -1,9 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "grove",
-    "taiga", "snowy_taiga", "old_growth_pine_taiga", "old_growth_spruce_taiga"
-  ],
+  "biomes": "#structures_test1:has_structure/christmas_tree",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
