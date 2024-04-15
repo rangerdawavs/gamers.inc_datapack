@@ -1,2 +1,2 @@
 scoreboard objectives add world_tp trigger
-execute positioned 0 100 0 run execute unless entity @e[type=marker,distance=..2,name="world_tp_index"] run summon marker ~ ~ ~ {CustomName:"\"world_tp_index\""}
+data modify storage world_teleporters:data current_id set value 0

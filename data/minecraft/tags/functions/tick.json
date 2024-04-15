@@ -15,6 +15,7 @@
 		"creative_zone:detect_trigger",
 		"creative_zone:wrong_area_detection_tick",
 		"elemental_powers:master_tick",
-		"world_teleporters:tp_tick"
+		"world_teleporters:tp_tick",
+		"world_teleporters:detect_world_tp"
 	]
 }
