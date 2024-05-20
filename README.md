@@ -12,3 +12,6 @@ allows discs with CustomModelData to play custom songs.
 
 ## creative zone
 provides functionality for adding a creative zone in a survival world
+
+## elemental_powers
+adds a power and type/class system to minecraft based on 10 elemental types

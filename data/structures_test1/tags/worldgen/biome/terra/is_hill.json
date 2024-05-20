@@ -1,0 +1,18 @@
+{
+    "values": [
+        "terralith:alpine_grove",
+        "terralith:alpine_highlands",
+        "terralith:arid_highlands",
+        "terralith:blooming_plateau",
+        "terralith:forested_highlands",
+        "terralith:haze_mountain",
+        "terralith:highlands",
+        "terralith:siberian_grove",
+        "terralith:snowy_cherry_grove",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_shield",
+        "terralith:temperate_highlands",
+        "terralith:yosemite_cliffs",
+        "terralith:wintry_forest"
+    ]
+}

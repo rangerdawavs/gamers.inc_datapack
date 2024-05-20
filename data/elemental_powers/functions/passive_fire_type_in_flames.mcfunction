@@ -1,0 +1,1 @@
+effect give @s strength 20 0 true

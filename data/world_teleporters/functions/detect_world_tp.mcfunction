@@ -1,0 +1,1 @@
+execute as @a if score @s world_tp matches 1.. if entity @e[type=marker,distance=..10,tag=ancient_tp_library] run function world_teleporters:tp

@@ -1,0 +1,5 @@
+execute as @e[type=marker,distance=..10,limit=1] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{pages:[],title:"Ancient Library",author:"Unknown"}}}
+execute as @e[type=marker,distance=..10,limit=1] at @s run data modify entity @e[type=item,distance=..3,limit=1] Item.tag.tp_info.x_cord set from entity @s Pos[0]
+execute as @e[type=marker,distance=..10,limit=1] at @s run data modify entity @e[type=item,distance=..3,limit=1] Item.tag.tp_info.y_cord set from entity @s Pos[1]
+execute as @e[type=marker,distance=..10,limit=1] at @s run data modify entity @e[type=item,distance=..3,limit=1] Item.tag.tp_info.z_cord set from entity @s Pos[2]
+execute as @e[type=marker,distance=..10,limit=1] at @s run function world_teleporters:tp_book_build with entity @e[type=item,distance=..3,limit=1] Item.tag.tp_info

@@ -1,0 +1,1 @@
+execute at @s run effect give @e[distance=..80,type=!player] glowing 10 0 true

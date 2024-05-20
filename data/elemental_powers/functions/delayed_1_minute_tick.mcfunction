@@ -1,0 +1,4 @@
+execute as @a[tag=!water_type] if entity @s[nbt={Inventory:[{Slot:100b,tag:{display:{Lore:['{"text":"water type"}']}}}]}] run item modify entity @s armor.feet elemental_powers:disen_water_powers
+execute as @a[tag=!water_type] if entity @s[nbt={Inventory:[{Slot:103b,tag:{display:{Lore:['{"text":"water type"}']}}}]}] run item modify entity @s armor.head elemental_powers:disen_water_powers
+execute as @a[tag=!fire_type] if entity @s[nbt={SelectedItem:{tag:{display:{Lore:['{"text":"fire type"}']}}}}] run item modify entity @s weapon.mainhand elemental_powers:disen_fire_powers
+schedule function elemental_powers:delayed_1_minute_tick 60s

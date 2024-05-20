@@ -1,0 +1,1 @@
+effect give @s resistance 1000 0 true
