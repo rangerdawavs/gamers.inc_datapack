@@ -1,0 +1,1 @@
+scoreboard objectives add spleef_placement dummy
