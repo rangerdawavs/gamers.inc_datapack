@@ -56,10 +56,22 @@
           "name": "minecraft:paper",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Blank Disc\",\"italic\":false}',Lore:['{\"text\":\"can be redeemed at the music shop\"}']},CustomModelData:4}"
+              "function": "minecraft:set_custom_model_data",
+              "count":4
+            },
+            {
+              "function": "set_name",
+              "name": "blank disc"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "tradeable"
+                }
+              ]
             }
-          ]
+          ] 
         }
       ],
       "conditions": [
