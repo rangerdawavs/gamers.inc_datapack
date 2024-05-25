@@ -1,1 +1,0 @@
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:music_disc_11"}}] run function custom_music_discs:detect_disc_var
