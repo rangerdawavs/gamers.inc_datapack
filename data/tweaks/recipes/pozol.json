@@ -19,9 +19,7 @@
       "count": 1,
       "id": "minecraft:rabbit_stew",
       "components": {
-        "minecraft:custom_name":{
-            "text":"Pozol"
-        }
+        "minecraft:custom_name":{"text":"Magic Wand","color":"light_purple","italic":false}
       }
     }
   }
