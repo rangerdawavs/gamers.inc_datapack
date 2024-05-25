@@ -1,11 +1,11 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-        "has_cooked_porkchop": {
+        "has_apple": {
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:cooked_porkchop"
+                        "items": "minecraft:apple"
                     }
                 ]
             },
@@ -14,12 +14,12 @@
     },
     "requirements": [
         [
-            "has_cooked_porkchop"
+            "has_apple"
         ]
     ],
     "rewards": {
         "recipes": [
-            "tweaks:pozol"
+            "tweaks:applecake"
         ]
     }
 }
