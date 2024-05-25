@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_cooked_porkchop": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:cooked_porkchop"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+    "requirements": [
+        "has_cooked_porkchop"
+    ],
+    "rewards": {
+      "recipes": [
+        "tweaks:pozol"
+      ]
+    }
+  }
