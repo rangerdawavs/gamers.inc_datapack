@@ -1,0 +1,1 @@
+$function world_teleporters:tp with storage world_teleporters:data list_of_lib_cords[$(id)]

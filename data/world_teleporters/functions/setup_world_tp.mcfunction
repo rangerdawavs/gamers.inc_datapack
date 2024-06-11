@@ -1,0 +1,1 @@
+say setting up world tp
