@@ -9,3 +9,4 @@ execute store result score @s world_tp run data get storage world_teleporters:da
 scoreboard players add @s world_tp 1
 execute store result storage world_teleporters:data current_id.id int 1 run scoreboard players get @s world_tp
 scoreboard players set @s world_tp 0
+tag @s add waypoint_activated
