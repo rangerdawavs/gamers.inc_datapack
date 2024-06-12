@@ -12,6 +12,7 @@
 		"world_teleporters:tp_tick",
 		"world_teleporters:detect_world_tp",
 		"creative_zone:enable_creatent_tick",
-		"creative_zone:wrong_area_detection_tick"
+		"creative_zone:wrong_area_detection_tick",
+		"creative_zone:detect_trigger"
 	]
 }
