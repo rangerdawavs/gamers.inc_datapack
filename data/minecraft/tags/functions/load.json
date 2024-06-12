@@ -5,6 +5,7 @@
 		"creative_zone:setup_load",
 		"elemental_powers:setup_load",
 		"rail_builder:setup_load",
-		"world_teleporters:setup"
+		"world_teleporters:setup",
+		"tweaks:setup"
 	]
 }
