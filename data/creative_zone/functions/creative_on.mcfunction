@@ -1,5 +1,6 @@
 tag @s add creative
 gamemode creative @s
+tell @s use /trigger creatent to leave creative zone
 execute as @s store result score @s xp run xp query @s levels
 execute at @s run execute store result score @s ow_xcord run data get entity @s Pos[0]
 execute at @s run execute store result score @s ow_ycord run data get entity @s Pos[1]
