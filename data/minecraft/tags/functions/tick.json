@@ -10,6 +10,8 @@
 		"spawn_tp:detect_trigger",
 		"elemental_powers:master_tick",
 		"world_teleporters:tp_tick",
-		"world_teleporters:detect_world_tp"
+		"world_teleporters:detect_world_tp",
+		"creative_zone:enable_creatent_tick",
+		"creative_zone:wrong_area_detection_tick"
 	]
 }
