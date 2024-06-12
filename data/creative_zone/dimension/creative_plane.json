@@ -6,6 +6,10 @@
             "biome": "minecraft:plains",
             "layers": [
                 {
+                    "block": "air",
+                    "height": 64
+                },
+                {
                     "block": "bedrock",
                     "height": 1
                 },
