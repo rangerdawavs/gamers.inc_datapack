@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "Clicked_interact": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[ancient_tp_library]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "Clicked_interact"
+      ]
+    ],
+    "rewards": {
+      "function": "world_teleporters:advancement_activated"
+    }
+  }
+  
