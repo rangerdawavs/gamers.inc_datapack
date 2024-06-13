@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "creative_zone:creative_plane_portal",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 128,
+      "separation": 32,
+      "salt": 248934
+    }
+  }
+  
