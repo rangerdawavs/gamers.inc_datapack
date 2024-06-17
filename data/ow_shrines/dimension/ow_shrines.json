@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "biome": "minecraft:the_void",
+            "layers": [
+                {
+                    "block": "air",
+                    "height": 64
+                },
+                {
+                    "block": "bedrock",
+                    "height": 1
+                },
+                {
+                    "block": "dirt",
+                    "height": 2
+                },
+                {
+                    "block": "grass_block",
+                    "height": 1
+                }
+            ],
+            "structure_overrides": "minecraft:villages"
+        }
+    }
+}
