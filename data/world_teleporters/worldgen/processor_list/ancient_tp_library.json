@@ -2,7 +2,7 @@
     "processors": [
       {
         "processor_type": "minecraft:block_rot",
-        "integrity": 0.05
+        "integrity": 0.95
       },
       {
         "processor_type": "minecraft:rule",
