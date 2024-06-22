@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "world_teleporters:ancient_tp_library",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 128,
+      "separation": 32,
+      "salt": 1199025671
+    }
+  }
+  
