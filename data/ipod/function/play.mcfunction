@@ -1,3 +1,20 @@
 execute if score @s set_song matches 0 run tellraw @s "list of songs:\n1:13\n2:cat\n"
 execute if score @s set_song matches 1 run execute if score @s unlocked_disc_1 matches 1 run playsound music_disc.13 record @s ~ ~ ~ 100
 execute if score @s set_song matches 2 run execute if score @s unlocked_disc_2 matches 1 run playsound music_disc.cat record @s ~ ~ ~ 100
+execute if score @s set_song matches 3 run execute if score @s unlocked_disc_3 matches 1 run playsound music_disc.blocks record @s ~ ~ ~ 100
+execute if score @s set_song matches 4 run execute if score @s unlocked_disc_4 matches 1 run playsound music_disc.chirp record @s ~ ~ ~ 100
+execute if score @s set_song matches 5 run execute if score @s unlocked_disc_5 matches 1 run playsound music_disc.far record @s ~ ~ ~ 100
+execute if score @s set_song matches 6 run execute if score @s unlocked_disc_6 matches 1 run playsound music_disc.mall record @s ~ ~ ~ 100
+execute if score @s set_song matches 7 run execute if score @s unlocked_disc_7 matches 1 run playsound music_disc.mellohi record @s ~ ~ ~ 100
+execute if score @s set_song matches 8 run execute if score @s unlocked_disc_8 matches 1 run playsound music_disc.stal record @s ~ ~ ~ 100
+execute if score @s set_song matches 9 run execute if score @s unlocked_disc_9 matches 1 run playsound music_disc.strad record @s ~ ~ ~ 100
+execute if score @s set_song matches 10 run execute if score @s unlocked_disc_10 matches 1 run playsound music_disc.ward record @s ~ ~ ~ 100
+execute if score @s set_song matches 11 run execute if score @s unlocked_disc_11 matches 1 run playsound music_disc.11 record @s ~ ~ ~ 100
+execute if score @s set_song matches 12 run execute if score @s unlocked_disc_12 matches 1 run playsound music_disc.wait record @s ~ ~ ~ 100
+execute if score @s set_song matches 13 run execute if score @s unlocked_disc_13 matches 1 run playsound music_disc.otherside record @s ~ ~ ~ 100
+execute if score @s set_song matches 14 run execute if score @s unlocked_disc_14 matches 1 run playsound music_disc.5 record @s ~ ~ ~ 100
+execute if score @s set_song matches 15 run execute if score @s unlocked_disc_15 matches 1 run playsound music_disc.pigstep record @s ~ ~ ~ 100
+execute if score @s set_song matches 16 run execute if score @s unlocked_disc_16 matches 1 run playsound music_disc.relic record @s ~ ~ ~ 100
+execute if score @s set_song matches 17 run execute if score @s unlocked_disc_17 matches 1 run playsound music_disc.creator record @s ~ ~ ~ 100
+execute if score @s set_song matches 18 run execute if score @s unlocked_disc_18 matches 1 run playsound music_disc.creator_music_box record @s ~ ~ ~ 100
+execute if score @s set_song matches 19 run execute if score @s unlocked_disc_19 matches 1 run playsound music_disc.precipice record @s ~ ~ ~ 100

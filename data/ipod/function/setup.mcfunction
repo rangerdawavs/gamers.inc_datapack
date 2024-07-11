@@ -3,4 +3,21 @@ scoreboard objectives add playing_song dummy
 scoreboard players set @a playing_song 0
 scoreboard objectives add unlocked_disc_1 dummy
 scoreboard objectives add unlocked_disc_2 dummy
+scoreboard objectives add unlocked_disc_3 dummy
+scoreboard objectives add unlocked_disc_4 dummy
+scoreboard objectives add unlocked_disc_5 dummy
+scoreboard objectives add unlocked_disc_6 dummy
+scoreboard objectives add unlocked_disc_7 dummy
+scoreboard objectives add unlocked_disc_8 dummy
+scoreboard objectives add unlocked_disc_9 dummy
+scoreboard objectives add unlocked_disc_10 dummy
+scoreboard objectives add unlocked_disc_11 dummy
+scoreboard objectives add unlocked_disc_12 dummy
+scoreboard objectives add unlocked_disc_13 dummy
+scoreboard objectives add unlocked_disc_14 dummy
+scoreboard objectives add unlocked_disc_15 dummy
+scoreboard objectives add unlocked_disc_16 dummy
+scoreboard objectives add unlocked_disc_17 dummy
+scoreboard objectives add unlocked_disc_18 dummy
+scoreboard objectives add unlocked_disc_19 dummy
 scoreboard objectives add cooldown_ipod dummy
