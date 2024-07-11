@@ -6,6 +6,7 @@
 		"elemental_powers:setup_load",
 		"rail_builder:setup_load",
 		"world_teleporters:setup",
-		"tweaks:setup"
+		"tweaks:setup",
+		"ipod:setup"
 	]
 }

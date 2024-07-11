@@ -1,0 +1,2 @@
+execute if items entity @s weapon.offhand music_disc_13 run scoreboard players set @s unlocked_disc_1 1
+execute if items entity @s weapon.offhand music_disc_cat run scoreboard players set @s unlocked_disc_2 1

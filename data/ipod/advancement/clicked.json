@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {"ipod":true}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ipod:click_detected"
+    }
+}
