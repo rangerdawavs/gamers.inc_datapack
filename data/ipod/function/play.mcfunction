@@ -1,4 +1,4 @@
-execute if score @s set_song matches 0 run tellraw @s "list of songs:\n1:13\n2:cat\n"
+execute if score @s set_song matches 0 run tellraw @s "list of songs:\n1:13\n2:cat\n3:blocks\n4:chirp\n5:far\n6:mall\n7:mellohi\n8:stal\n9:strad\n10:ward\n11:11\n12:wait\n13:otherside\n14:5\n15:pigstep\n16:relic\n17:creator\n18:creator_music_box\n19:precipice"
 execute if score @s set_song matches 1 run execute if score @s unlocked_disc_1 matches 1 run playsound music_disc.13 record @s ~ ~ ~ 100
 execute if score @s set_song matches 2 run execute if score @s unlocked_disc_2 matches 1 run playsound music_disc.cat record @s ~ ~ ~ 100
 execute if score @s set_song matches 3 run execute if score @s unlocked_disc_3 matches 1 run playsound music_disc.blocks record @s ~ ~ ~ 100
