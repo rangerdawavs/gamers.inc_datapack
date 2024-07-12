@@ -1,0 +1,16 @@
+{
+    "name": "hidenseek:hidenseek_outside",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "hidenseek:outside_hidenseek",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
