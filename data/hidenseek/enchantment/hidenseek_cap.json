@@ -1,0 +1,43 @@
+{
+    "description": "hidenseek_cap",
+    "supported_items": "minecraft:leather_helmet",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 100,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 101,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "head"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:attribute",
+            "id": "hidenseek:hidenseek_cap",
+            "attribute": "minecraft:generic.scale",
+            "amount": -0.75,
+            "operation": "add_value"
+          },
+          "requirements": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate":{
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier": 2
+                    }
+                }
+            }
+          }
+        }
+      ]
+    }
+  }
+  
