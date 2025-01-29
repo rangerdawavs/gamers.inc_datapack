@@ -7,6 +7,7 @@
 		"rail_builder:setup_load",
 		"world_teleporters:setup",
 		"tweaks:setup",
-		"ipod:setup"
+		"ipod:setup",
+		"communist_villagers:setup"
 	]
 }

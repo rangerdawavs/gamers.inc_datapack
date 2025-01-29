@@ -1,0 +1,2 @@
+say loaded communist villagers
+scoreboard objectives add villager_slot_counter dummy
