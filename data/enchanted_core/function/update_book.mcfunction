@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand enchanted_core:update_book

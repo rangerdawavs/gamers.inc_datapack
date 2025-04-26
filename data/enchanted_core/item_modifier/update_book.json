@@ -1,0 +1,14 @@
+{
+    "function": "set_components",
+    "components": {
+        "written_book_content": {
+            "title": "Enchanted Core",
+            "author": "Anonymous",
+            "pages": [
+                {
+                    "raw": "[{\"text\":\"Health: \"},{\"score\":{\"name\":\"@s\",\"objective\":\"health\"}}]"
+                }
+            ]
+        }
+    }
+}
