@@ -1,2 +1,2 @@
-execute at @s run summon area_effect_cloud ~ ~ ~ {Particle:happy_villager,Color:8439583,Radius:5,Duration:140,ReapplicationDelay:20,Effects:[{Id:10,Duration:100,Amplifier:0,ShowParticles:1b,ShowIcon:1}]}
+execute at @s run summon area_effect_cloud ~ ~ ~ {Particle:{type:"angry_villager"},Color:8439583,Radius:5,Duration:140,ReapplicationDelay:20,potion_contents:{custom_effects:[{id:regeneration,duration:100,amplifier:0,show_particles:1b,show_icon:true}]}}
 scoreboard players set @s power1_delay 20
