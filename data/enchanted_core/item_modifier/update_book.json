@@ -7,6 +7,9 @@
             "pages": [
                 {
                     "raw": "[{\"text\":\"Absorb Enchantments\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger absorb_enchantments\"}}]"
+                },
+                {
+                    "raw": "[{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger absorb_enchantments\"}}]"
                 }
             ]
         }
