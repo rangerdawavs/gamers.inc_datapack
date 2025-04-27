@@ -1,0 +1,17 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "core": 1
+        }
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            {
+                "text": "core enchanted"
+            }
+        ],
+        "mode": "append"
+    }
+]

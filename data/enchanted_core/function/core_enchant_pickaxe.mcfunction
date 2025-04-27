@@ -1,0 +1,4 @@
+execute if score @s core_enchant matches 1 if items entity @s weapon.offhand *[enchantments~[{enchantments:unbreaking,levels:2}]] if score @s core_pickaxe_unbreaking matches 9.. run item modify entity @s weapon.offhand enchanted_core:add_unbreaking
+execute if score @s core_enchant matches 1 if items entity @s weapon.offhand *[enchantments~[{enchantments:unbreaking,levels:1}]] if score @s core_pickaxe_unbreaking matches 6.. run item modify entity @s weapon.offhand enchanted_core:add_unbreaking
+execute if score @s core_enchant matches 1 unless items entity @s weapon.offhand *[enchantments~[{enchantments:unbreaking}]] if score @s core_pickaxe_unbreaking matches 3.. run item modify entity @s weapon.offhand enchanted_core:add_unbreaking
+execute if score @s core_enchant matches 1 unless items entity @s weapon.offhand *[custom_data~{core:1}] run item modify entity @s weapon.offhand enchanted_core:add_core_designation
