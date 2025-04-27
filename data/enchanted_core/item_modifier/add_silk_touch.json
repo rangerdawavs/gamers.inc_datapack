@@ -1,0 +1,29 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "silk_touch": 1
+    },
+    "add": true,
+    "conditions": [
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "offhand": {
+                            "predicates": {
+                                "enchantments": [
+                                    {
+                                        "enchantments": "fortune"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
