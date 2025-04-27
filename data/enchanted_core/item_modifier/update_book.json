@@ -9,7 +9,7 @@
                     "raw": "[{\"text\":\"Absorb Enchantments\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger absorb_enchantments\"}}]"
                 },
                 {
-                    "raw": "[{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}}]"
+                    "raw": "[{\"text\":\"Pickaxe\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"@s\",\"objective\":\"core_pickaxe_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Efficiency\\nEssence: \"},{\"score\":{\"name\":\"@s\",\"objective\":\"core_pickaxe_efficiency\"}},{\"text\":\" Enchant\\n\\n\",\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}}]"
                 }
             ]
         }
