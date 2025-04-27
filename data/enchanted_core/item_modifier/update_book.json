@@ -9,7 +9,7 @@
                     "raw": "[{\"text\":\"Absorb Enchantments\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger absorb_enchantments\"}}]"
                 },
                 {
-                    "raw": "[{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}}]"
+                    "raw": "[{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Core enchant unbreaking pickaxe\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}}]"
                 }
             ]
         }

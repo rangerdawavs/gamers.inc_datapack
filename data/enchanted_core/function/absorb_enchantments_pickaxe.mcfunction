@@ -1,3 +1,5 @@
 execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:unbreaking}]] store result score @s core_temp_score run data get entity @s Inventory[-1].components."minecraft:enchantments".levels."minecraft:unbreaking"
 execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:unbreaking}]] run scoreboard players operation @s core_pickaxe_unbreaking += @s core_temp_score
+execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:efficiency}]] store result score @s core_temp_score run data get entity @s Inventory[-1].components."minecraft:enchantments".levels."minecraft:efficiency"
+execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:efficiency}]] run scoreboard players operation @s core_pickaxe_efficiency += @s core_temp_score
 item modify entity @s weapon.offhand enchanted_core:remove_enchants
