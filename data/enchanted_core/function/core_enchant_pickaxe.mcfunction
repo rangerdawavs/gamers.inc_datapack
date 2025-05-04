@@ -18,3 +18,6 @@ execute if score @s core_enchant matches 3 if items entity @s weapon.offhand *[c
 #silk touch
 execute if score @s core_enchant matches 4 unless items entity @s weapon.offhand *[enchantments~[{enchantments:silk_touch}]] if score @s core_pickaxe_silk_touch matches 3.. run item modify entity @s weapon.offhand enchanted_core:add_silk_touch
 execute if score @s core_enchant matches 4 if items entity @s weapon.offhand *[custom_data~{"core_enchanted_temp":1b}] run scoreboard players remove @s core_pickaxe_silk_touch 1
+#mending
+execute if score @s core_enchant matches 5 unless items entity @s weapon.offhand *[enchantments~[{enchantments:mending}]] if score @s core_pickaxe_mending matches 3.. run item modify entity @s weapon.offhand enchanted_core:add_mending
+execute if score @s core_enchant matches 5 if items entity @s weapon.offhand *[custom_data~{"core_enchanted_temp":1b}] run scoreboard players remove @s core_pickaxe_mending 1

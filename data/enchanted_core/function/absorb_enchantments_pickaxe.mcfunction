@@ -9,5 +9,8 @@ execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enc
 #silk touch
 execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:silk_touch}]] store result score @s core_temp_score run data get entity @s Inventory[-1].components."minecraft:enchantments".levels."minecraft:silk_touch"
 execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:silk_touch}]] run scoreboard players operation @s core_pickaxe_silk_touch += @s core_temp_score
+#mending
+execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:mending}]] store result score @s core_temp_score run data get entity @s Inventory[-1].components."minecraft:enchantments".levels."minecraft:mending"
+execute if items entity @s weapon.offhand #minecraft:pickaxes[enchantments~[{enchantments:mending}]] run scoreboard players operation @s core_pickaxe_mending += @s core_temp_score
 #final
 item modify entity @s weapon.offhand enchanted_core:remove_enchants
