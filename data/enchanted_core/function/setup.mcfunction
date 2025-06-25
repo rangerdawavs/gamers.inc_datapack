@@ -3,6 +3,11 @@ scoreboard objectives add core_pickaxe_efficiency dummy
 scoreboard objectives add core_pickaxe_fortune dummy
 scoreboard objectives add core_pickaxe_silk_touch dummy
 scoreboard objectives add core_pickaxe_mending dummy
+scoreboard objectives add core_axe_unbreaking dummy
+scoreboard objectives add core_axe_efficiency dummy
+scoreboard objectives add core_axe_fortune dummy
+scoreboard objectives add core_axe_silk_touch dummy
+scoreboard objectives add core_axe_mending dummy
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger
 scoreboard objectives add core_enchant trigger
