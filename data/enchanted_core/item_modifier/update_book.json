@@ -19,6 +19,12 @@
                 },
                 {
                     "raw": "[{\"text\":\"Axe page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}}]"
+                },
+                {
+                    "raw": "[{\"text\":\"Shovel\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Efficiency\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_efficiency\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}},{\"text\":\"Fortune\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_fortune\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 3\"}},{\"text\":\"Silk Touch\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_silk_touch\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 4\"}}]"
+                },
+                {
+                    "raw": "[{\"text\":\"Shovel page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}}]"
                 }
             ]
         }
