@@ -1,0 +1,60 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_enchantments",
+            "enchantments": {
+                "depth_strider": 1
+            },
+            "add": true,
+            "conditions": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "offhand": {
+                                    "predicates": {
+                                        "enchantments": [
+                                            {
+                                                "enchantments": "frost_walker"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {"core_enchanted_temp":1},
+            "conditions": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "offhand": {
+                                    "predicates": {
+                                        "enchantments": [
+                                            {
+                                                "enchantments": "frost_walker"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

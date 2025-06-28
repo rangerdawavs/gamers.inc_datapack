@@ -1,18 +1,32 @@
+#pickaxe
 scoreboard objectives add core_pickaxe_unbreaking dummy
 scoreboard objectives add core_pickaxe_efficiency dummy
 scoreboard objectives add core_pickaxe_fortune dummy
 scoreboard objectives add core_pickaxe_silk_touch dummy
 scoreboard objectives add core_pickaxe_mending dummy
+#axe
 scoreboard objectives add core_axe_unbreaking dummy
 scoreboard objectives add core_axe_efficiency dummy
 scoreboard objectives add core_axe_fortune dummy
 scoreboard objectives add core_axe_silk_touch dummy
 scoreboard objectives add core_axe_mending dummy
+#shovel
 scoreboard objectives add core_shovel_unbreaking dummy
 scoreboard objectives add core_shovel_efficiency dummy
 scoreboard objectives add core_shovel_fortune dummy
 scoreboard objectives add core_shovel_silk_touch dummy
 scoreboard objectives add core_shovel_mending dummy
+#helmet
+scoreboard objectives add core_helmet_unbreaking dummy
+scoreboard objectives add core_helmet_mending dummy
+scoreboard objectives add core_helmet_thorns dummy
+scoreboard objectives add core_helmet_respiration dummy
+scoreboard objectives add core_helmet_aqua_affinity dummy
+scoreboard objectives add core_helmet_protection dummy
+scoreboard objectives add core_helmet_blast_protection dummy
+scoreboard objectives add core_helmet_fire_protection dummy
+scoreboard objectives add core_helmet_projectile_protection dummy
+#final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger
 scoreboard objectives add core_enchant trigger
