@@ -1,1 +1,1 @@
-execute as @a if score @s world_tp matches 1.. run function world_teleporters:tp_verify
+execute as @a if score @s world_tp matches 1.. run function world_teleporters:tp_start
