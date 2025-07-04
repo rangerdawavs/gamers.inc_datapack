@@ -26,6 +26,14 @@ scoreboard objectives add core_helmet_protection dummy
 scoreboard objectives add core_helmet_blast_protection dummy
 scoreboard objectives add core_helmet_fire_protection dummy
 scoreboard objectives add core_helmet_projectile_protection dummy
+#chestplate
+scoreboard objectives add core_chestplate_unbreaking dummy
+scoreboard objectives add core_chestplate_mending dummy
+scoreboard objectives add core_chestplate_thorns dummy
+scoreboard objectives add core_chestplate_protection dummy
+scoreboard objectives add core_chestplate_blast_protection dummy
+scoreboard objectives add core_chestplate_fire_protection dummy
+scoreboard objectives add core_chestplate_projectile_protection dummy
 #final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger
