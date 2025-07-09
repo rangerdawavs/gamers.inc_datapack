@@ -34,6 +34,15 @@ scoreboard objectives add core_chestplate_protection dummy
 scoreboard objectives add core_chestplate_blast_protection dummy
 scoreboard objectives add core_chestplate_fire_protection dummy
 scoreboard objectives add core_chestplate_projectile_protection dummy
+#leggings
+scoreboard objectives add core_leggings_unbreaking dummy
+scoreboard objectives add core_leggings_mending dummy
+scoreboard objectives add core_leggings_thorns dummy
+scoreboard objectives add core_leggings_protection dummy
+scoreboard objectives add core_leggings_blast_protection dummy
+scoreboard objectives add core_leggings_fire_protection dummy
+scoreboard objectives add core_leggings_projectile_protection dummy
+scoreboard objectives add core_leggings_swift_sneak dummy
 #final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger

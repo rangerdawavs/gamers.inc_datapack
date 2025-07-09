@@ -2,6 +2,8 @@ execute if items entity @s weapon.offhand #pickaxes run function enchanted_core:
 execute if items entity @s weapon.offhand #axes run function enchanted_core:core_enchant_axe
 execute if items entity @s weapon.offhand #shovels run function enchanted_core:core_enchant_shovel
 execute if items entity @s weapon.offhand #head_armor run function enchanted_core:core_enchant_helmet
+execute if items entity @s weapon.offhand #chest_armor run function enchanted_core:core_enchant_chestplate
+execute if items entity @s weapon.offhand #leg_armor run function enchanted_core:core_enchant_leggings
 #final
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] unless items entity @s weapon.offhand *[custom_data~{core:1b}] run item modify entity @s weapon.offhand enchanted_core:add_core_designation
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] run item modify entity @s weapon.offhand enchanted_core:remove_temp
@@ -20,3 +22,4 @@ scoreboard players set @s core_enchant 0
 #10-blast protection
 #11-fire protection
 #12-projectile protection
+#13-swift sneak
