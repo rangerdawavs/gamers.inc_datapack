@@ -4,5 +4,6 @@ execute if items entity @s weapon.offhand #minecraft:shovels unless items entity
 execute if items entity @s weapon.offhand #minecraft:head_armor unless items entity @s weapon.offhand *[custom_data~{core:1b}] run function enchanted_core:absorb_enchantments_helmet
 execute if items entity @s weapon.offhand #minecraft:chest_armor unless items entity @s weapon.offhand *[custom_data~{core:1b}] run function enchanted_core:absorb_enchantments_chestplate
 execute if items entity @s weapon.offhand #minecraft:leg_armor unless items entity @s weapon.offhand *[custom_data~{core:1b}] run function enchanted_core:absorb_enchantments_leggings
+execute if items entity @s weapon.offhand #minecraft:foot_armor unless items entity @s weapon.offhand *[custom_data~{core:1b}] run function enchanted_core:absorb_enchantments_boots
 item modify entity @s weapon.mainhand enchanted_core:update_book
 scoreboard players set @s absorb_enchantments 0

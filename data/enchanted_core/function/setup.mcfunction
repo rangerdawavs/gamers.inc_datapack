@@ -43,6 +43,18 @@ scoreboard objectives add core_leggings_blast_protection dummy
 scoreboard objectives add core_leggings_fire_protection dummy
 scoreboard objectives add core_leggings_projectile_protection dummy
 scoreboard objectives add core_leggings_swift_sneak dummy
+#boots
+scoreboard objectives add core_boots_unbreaking dummy
+scoreboard objectives add core_boots_mending dummy
+scoreboard objectives add core_boots_thorns dummy
+scoreboard objectives add core_boots_protection dummy
+scoreboard objectives add core_boots_blast_protection dummy
+scoreboard objectives add core_boots_fire_protection dummy
+scoreboard objectives add core_boots_projectile_protection dummy
+scoreboard objectives add core_boots_soul_speed dummy
+scoreboard objectives add core_boots_depth_strider dummy
+scoreboard objectives add core_boots_frost_walker dummy
+scoreboard objectives add core_boots_feather_falling dummy
 #final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger
