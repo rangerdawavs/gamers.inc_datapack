@@ -6,55 +6,1184 @@
             "author": "Anonymous",
             "pages": [
                 {
-                    "raw": "[{\"text\":\"\"},{\"text\":\"Absorb Enchantments\\n\\n\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger absorb_enchantments\"},\"color\":\"dark_purple\"},{\"text\":\"The amount of essence determines the level of the enchantment that is aplied.\\nIn general:\\n3 e. for level 1\\n6 e. for level 2\\n9 e. for level 3\\n12 e. for level 4\\n15 e. for level 5\"}]"
+                    "raw": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": "Absorb Enchantments\\n\\n",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger absorb_enchantments"
+                            },
+                            "color": "dark_purple"
+                        },
+                        {
+                            "text": "The amount of essence determines the level of the enchantment that is aplied.\\nIn general:\\n3 e. for level 1\\n6 e. for level 2\\n9 e. for level 3\\n12 e. for level 4\\n15 e. for level 5"
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Pickaxe\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_pickaxe_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Efficiency\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_pickaxe_efficiency\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}},{\"text\":\"Fortune\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_pickaxe_fortune\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 3\"}},{\"text\":\"Silk Touch\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_pickaxe_silk_touch\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 4\"}}]"
+                    "raw": [
+                        {
+                            "text": "Pickaxe\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_pickaxe_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Efficiency\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_pickaxe_efficiency"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 2"
+                            }
+                        },
+                        {
+                            "text": "Fortune\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_pickaxe_fortune"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 3"
+                            }
+                        },
+                        {
+                            "text": "Silk Touch\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_pickaxe_silk_touch"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 4"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Pickaxe page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_pickaxe_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}}]"
+                    "raw": [
+                        {
+                            "text": "Pickaxe page 2\\n\\n"
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_pickaxe_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Axe\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Efficiency\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_efficiency\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}},{\"text\":\"Fortune\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_fortune\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 3\"}},{\"text\":\"Silk Touch\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_silk_touch\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 4\"}}]"
+                    "raw": [
+                        {
+                            "text": "Axe\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_axe_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Efficiency\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_axe_efficiency"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 2"
+                            }
+                        },
+                        {
+                            "text": "Fortune\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_axe_fortune"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 3"
+                            }
+                        },
+                        {
+                            "text": "Silk Touch\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_axe_silk_touch"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 4"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Axe page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_axe_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}}]"
+                    "raw": [
+                        {
+                            "text": "Axe page 2\\n\\n"
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_axe_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Shovel\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Efficiency\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_efficiency\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 2\"}},{\"text\":\"Fortune\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_fortune\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 3\"}},{\"text\":\"Silk Touch\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_silk_touch\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 4\"}}]"
+                    "raw": [
+                        {
+                            "text": "Shovel\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_shovel_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Efficiency\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_shovel_efficiency"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 2"
+                            }
+                        },
+                        {
+                            "text": "Fortune\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_shovel_fortune"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 3"
+                            }
+                        },
+                        {
+                            "text": "Silk Touch\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_shovel_silk_touch"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 4"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Shovel page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_shovel_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}}]"
+                    "raw": [
+                        {
+                            "text": "Shovel page 2\\n\\n"
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_shovel_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Helmet\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Thorns\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_thorns\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 6\"}},{\"text\":\"Respiration\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_respiration\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 7\"}},{\"text\":\"Aqua Affinity\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_aqua_affinity\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 8\"}}]"
+                    "raw": [
+                        {
+                            "text": "Helmet\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Thorns\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_thorns"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 6"
+                            }
+                        },
+                        {
+                            "text": "Respiration\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_respiration"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 7"
+                            }
+                        },
+                        {
+                            "text": "Aqua Affinity\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_aqua_affinity"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 8"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Helmet page 2\\n\\n\"},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}},{\"text\":\"Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 9\"}},{\"text\":\"Blast Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_blast_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 10\"}},{\"text\":\"Fire Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_fire_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 11\"}}]"
+                    "raw": [
+                        {
+                            "text": "Helmet page 2\\n\\n"
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 9"
+                            }
+                        },
+                        {
+                            "text": "Blast Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_blast_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 10"
+                            }
+                        },
+                        {
+                            "text": "Fire Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_fire_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 11"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Helmet page 3\\n\\n\"},{\"text\":\"Projectile Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_helmet_projectile_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 12\"}}]"
+                    "raw": [
+                        {
+                            "text": "Helmet page 3\\n\\n"
+                        },
+                        {
+                            "text": "Projectile Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_helmet_projectile_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 12"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Chestplate\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Thorns\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_thorns\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 6\"}},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}},{\"text\":\"Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 9\"}}]"
+                    "raw": [
+                        {
+                            "text": "Chestplate\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Thorns\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_thorns"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 6"
+                            }
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 9"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Chestplate page 2\\n\\n\"},{\"text\":\"Blast Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_blast_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 10\"}},{\"text\":\"Fire Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_fire_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 11\"}},{\"text\":\"Projectile Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_chestplate_projectile_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 12\"}}]"
+                    "raw": [
+                        {
+                            "text": "Chestplate page 2\\n\\n"
+                        },
+                        {
+                            "text": "Blast Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_blast_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 10"
+                            }
+                        },
+                        {
+                            "text": "Fire Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_fire_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 11"
+                            }
+                        },
+                        {
+                            "text": "Projectile Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_chestplate_projectile_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 12"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Leggings\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Thorns\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_thorns\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 6\"}},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}},{\"text\":\"Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 9\"}}]"
+                    "raw": [
+                        {
+                            "text": "Leggings\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Thorns\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_thorns"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 6"
+                            }
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 9"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Leggings page 2\\n\\n\"},{\"text\":\"Blast Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_blast_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 10\"}},{\"text\":\"Fire Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_fire_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 11\"}},{\"text\":\"Projectile Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_projectile_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 12\"}},{\"text\":\"Swift Sneak\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_leggings_swift_sneak\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 13\"}}]"
+                    "raw": [
+                        {
+                            "text": "Leggings page 2\\n\\n"
+                        },
+                        {
+                            "text": "Blast Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_blast_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 10"
+                            }
+                        },
+                        {
+                            "text": "Fire Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_fire_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 11"
+                            }
+                        },
+                        {
+                            "text": "Projectile Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_projectile_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 12"
+                            }
+                        },
+                        {
+                            "text": "Swift Sneak\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_leggings_swift_sneak"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 13"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Boots\\n\\n\"},{\"text\":\"Unbreaking\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_unbreaking\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 1\"}},{\"text\":\"Thorns\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_thorns\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 6\"}},{\"text\":\"Mending\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_mending\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 5\"}},{\"text\":\"Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 9\"}}]"
+                    "raw": [
+                        {
+                            "text": "Boots\\n\\n"
+                        },
+                        {
+                            "text": "Unbreaking\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Thorns\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_thorns"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 6"
+                            }
+                        },
+                        {
+                            "text": "Mending\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 9"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Boots page 2\\n\\n\"},{\"text\":\"Blast Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_blast_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 10\"}},{\"text\":\"Fire Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_fire_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 11\"}},{\"text\":\"Projectile Protection\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_projectile_protection\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 12\"}},{\"text\":\"Soul Speed\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_soul_speed\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 14\"}}]"
+                    "raw": [
+                        {
+                            "text": "Boots page 2\\n\\n"
+                        },
+                        {
+                            "text": "Blast Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_blast_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 10"
+                            }
+                        },
+                        {
+                            "text": "Fire Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_fire_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 11"
+                            }
+                        },
+                        {
+                            "text": "Projectile Protection\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_projectile_protection"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 12"
+                            }
+                        },
+                        {
+                            "text": "Soul Speed\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_soul_speed"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 14"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "raw": "[{\"text\":\"Boots page 3\\n\\n\"},{\"text\":\"Depth Strider\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_depth_strider\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 15\"}},{\"text\":\"Frost Walker\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_frost_walker\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 16\"}},{\"text\":\"Feather Falling\\nEssence: \"},{\"score\":{\"name\":\"*\",\"objective\":\"core_boots_feather_falling\"}},{\"text\":\" Enchant\\n\\n\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cost: 1 essence\"},\"color\": \"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger core_enchant set 17\"}}]"
+                    "raw": [
+                        {
+                            "text": "Boots page 3\\n\\n"
+                        },
+                        {
+                            "text": "Depth Strider\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_depth_strider"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 15"
+                            }
+                        },
+                        {
+                            "text": "Frost Walker\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_frost_walker"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 16"
+                            }
+                        },
+                        {
+                            "text": "Feather Falling\\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_boots_feather_falling"
+                            }
+                        },
+                        {
+                            "text": " Enchant\\n\\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 17"
+                            }
+                        }
+                    ]
                 }
             ]
         }

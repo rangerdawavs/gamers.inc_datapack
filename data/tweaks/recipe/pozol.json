@@ -11,7 +11,7 @@
     "count": 1,
     "id": "minecraft:rabbit_stew",
     "components": {
-      "minecraft:item_name": "{\"text\":\"Pozol\"}"
+      "minecraft:item_name": {"text":"Pozol"}
     }
   }
 }

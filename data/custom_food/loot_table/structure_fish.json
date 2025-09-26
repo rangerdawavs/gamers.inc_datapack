@@ -21,7 +21,7 @@
                                         "minecraft:custom_data": {
                                             "custom_food_item": 597561
                                         },
-                                        "minecraft:custom_model_data": 597561,
+                                        "minecraft:custom_model_data": {"floats":[597561]},
                                         "minecraft:food": {
                                             "nutrition": 1,
                                             "saturation": 0.2
