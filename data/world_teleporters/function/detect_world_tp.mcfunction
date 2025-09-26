@@ -1,0 +1,1 @@
+execute as @a[tag=!teleporting] if score @s world_tp matches 1.. run function world_teleporters:tp_start

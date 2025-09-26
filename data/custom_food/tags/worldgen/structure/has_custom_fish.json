@@ -1,0 +1,12 @@
+{
+    "values": [
+        {
+            "id": "world_teleporters:ancient_tp_library",
+            "required": false
+        },
+        {
+            "id": "nova_structures:toxic_lair",
+            "required": false
+        }
+    ]
+}

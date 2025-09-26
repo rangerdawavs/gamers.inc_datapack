@@ -1,0 +1,2 @@
+execute at @a[tag=teleporting] run execute at @e[type=marker,distance=..10,tag=ancient_tp_library,limit=1] run particle minecraft:end_rod ~ ~5 ~ 5 5 5 0.01 100
+execute if entity @a[tag=teleporting] run schedule function world_teleporters:spawn_particles 1s replace

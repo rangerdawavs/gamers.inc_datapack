@@ -1,0 +1,1 @@
+$tp $(x_cord) $(y_cord) $(z_cord)

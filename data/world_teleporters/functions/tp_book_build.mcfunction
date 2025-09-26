@@ -1,1 +1,0 @@
-$data modify entity @e[type=item,distance=..3,limit=1] Item.tag.pages set value ['[["",{"text":"tp","clickEvent":{"action":"run_command","value":"/tp @s $(x_cord) $(y_cord) $(z_cord)"}}]]']

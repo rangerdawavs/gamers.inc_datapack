@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "Clicked_interact": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[creative_plane_portal]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "Clicked_interact"
+      ]
+    ],
+    "rewards": {
+      "function": "creative_zone:advancement_activated"
+    }
+  }
+  

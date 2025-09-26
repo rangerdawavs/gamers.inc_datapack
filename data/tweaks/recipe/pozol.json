@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      {
+        "item": "minecraft:cooked_porkchop"
+      },
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:bowl"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:rabbit_stew",
+      "components": {
+        "minecraft:item_name":"{\"text\":\"Pozol\"}"
+      }
+    }
+  }

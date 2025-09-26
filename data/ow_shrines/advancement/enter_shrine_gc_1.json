@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "Clicked_interact": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[ow_shrines_enter_shrine_gc_1]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "Clicked_interact"
+      ]
+    ],
+    "rewards": {
+      "function": "ow_shrines:enter_shrine_gc_1"
+    }
+  }
+  

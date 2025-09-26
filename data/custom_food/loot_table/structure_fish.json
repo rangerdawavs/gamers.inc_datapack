@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:tropical_fish",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:rarity": "uncommon",
+                                        "minecraft:item_name": "\"Lightning Fish\"",
+                                        "minecraft:lore": [
+                                            "\"Sacred fish of the\"",
+                                            "\"ancient lightning god\""
+                                        ],
+                                        "minecraft:custom_data": {
+                                            "custom_food_item": 597561
+                                        },
+                                        "minecraft:custom_model_data": 597561,
+                                        "minecraft:food": {
+                                            "nutrition": 1,
+                                            "saturation": 0.2,
+                                            "effects": [
+                                                {
+                                                    "effect": {
+                                                        "id": "speed",
+                                                        "duration": 100,
+                                                        "amplifier": 1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "structures": "world_teleporters:ancient_tp_library"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "pufferfish",
+                            "conditions": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "structures": "#custom_food:toxic_lair"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:cod"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

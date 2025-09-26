@@ -1,0 +1,140 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_enchantments",
+            "enchantments": {
+                "blast_protection": 1
+            },
+            "add": true,
+            "conditions": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "fire_protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "projectile_protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "core_enchanted_temp": 1
+            },
+            "conditions": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "fire_protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "predicates": {
+                                                "enchantments": [
+                                                    {
+                                                        "enchantments": "projectile_protection"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

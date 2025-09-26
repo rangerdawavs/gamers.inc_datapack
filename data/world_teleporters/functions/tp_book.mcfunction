@@ -1,1 +1,0 @@
-$give @a written_book{pages:['[["",{"text":"tp","clickEvent":{"action":"run_command","value":"/tp @s $(x_cord) $(y_cord) $(z_cord)"}}]]'],title:"Book Title",author:"Book Author"}

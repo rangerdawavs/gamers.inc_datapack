@@ -1,0 +1,1 @@
+execute as @a at @s if score @s horse_unload matches 1 run function pegasus:check_unload_horse

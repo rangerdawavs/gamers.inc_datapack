@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "gbg",
+        "gag",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "g": {
+            "item": "minecraft:glass"
+        },
+        "b": {
+            "item": "minecraft:stone_button"
+        }
+    },
+    "result": {
+        "id": "minecraft:clock",
+        "components": {
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000
+            },
+            "minecraft:custom_data": {
+                "ipod": true
+            },
+            "minecraft:item_name": "\"ipod\""
+        }
+    }
+}

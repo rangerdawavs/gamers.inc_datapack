@@ -1,0 +1,16 @@
+{
+    "name": "world_teleporters:ancient_tp_library",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "world_teleporters:ancient_tp_library",
+          "projection": "rigid",
+          "processors": "world_teleporters:ancient_tp_library"
+        }
+      }
+    ]
+  }
+  

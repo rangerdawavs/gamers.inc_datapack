@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+            "type": "loot_table",
+            "value": "custom_food:structure_fish",
+            "conditions": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "structures": "#custom_food:has_custom_fish"
+                    }
+                }
+            ],
+            "weight": 60
+        },
+        {
+            "type": "item",
+            "name": "cod",
+            "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 13
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

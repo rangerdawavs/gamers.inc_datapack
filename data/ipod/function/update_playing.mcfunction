@@ -1,0 +1,1 @@
+scoreboard players set @s playing_song 1

@@ -1,0 +1,61 @@
+#pickaxe
+scoreboard objectives add core_pickaxe_unbreaking dummy
+scoreboard objectives add core_pickaxe_efficiency dummy
+scoreboard objectives add core_pickaxe_fortune dummy
+scoreboard objectives add core_pickaxe_silk_touch dummy
+scoreboard objectives add core_pickaxe_mending dummy
+#axe
+scoreboard objectives add core_axe_unbreaking dummy
+scoreboard objectives add core_axe_efficiency dummy
+scoreboard objectives add core_axe_fortune dummy
+scoreboard objectives add core_axe_silk_touch dummy
+scoreboard objectives add core_axe_mending dummy
+#shovel
+scoreboard objectives add core_shovel_unbreaking dummy
+scoreboard objectives add core_shovel_efficiency dummy
+scoreboard objectives add core_shovel_fortune dummy
+scoreboard objectives add core_shovel_silk_touch dummy
+scoreboard objectives add core_shovel_mending dummy
+#helmet
+scoreboard objectives add core_helmet_unbreaking dummy
+scoreboard objectives add core_helmet_mending dummy
+scoreboard objectives add core_helmet_thorns dummy
+scoreboard objectives add core_helmet_respiration dummy
+scoreboard objectives add core_helmet_aqua_affinity dummy
+scoreboard objectives add core_helmet_protection dummy
+scoreboard objectives add core_helmet_blast_protection dummy
+scoreboard objectives add core_helmet_fire_protection dummy
+scoreboard objectives add core_helmet_projectile_protection dummy
+#chestplate
+scoreboard objectives add core_chestplate_unbreaking dummy
+scoreboard objectives add core_chestplate_mending dummy
+scoreboard objectives add core_chestplate_thorns dummy
+scoreboard objectives add core_chestplate_protection dummy
+scoreboard objectives add core_chestplate_blast_protection dummy
+scoreboard objectives add core_chestplate_fire_protection dummy
+scoreboard objectives add core_chestplate_projectile_protection dummy
+#leggings
+scoreboard objectives add core_leggings_unbreaking dummy
+scoreboard objectives add core_leggings_mending dummy
+scoreboard objectives add core_leggings_thorns dummy
+scoreboard objectives add core_leggings_protection dummy
+scoreboard objectives add core_leggings_blast_protection dummy
+scoreboard objectives add core_leggings_fire_protection dummy
+scoreboard objectives add core_leggings_projectile_protection dummy
+scoreboard objectives add core_leggings_swift_sneak dummy
+#boots
+scoreboard objectives add core_boots_unbreaking dummy
+scoreboard objectives add core_boots_mending dummy
+scoreboard objectives add core_boots_thorns dummy
+scoreboard objectives add core_boots_protection dummy
+scoreboard objectives add core_boots_blast_protection dummy
+scoreboard objectives add core_boots_fire_protection dummy
+scoreboard objectives add core_boots_projectile_protection dummy
+scoreboard objectives add core_boots_soul_speed dummy
+scoreboard objectives add core_boots_depth_strider dummy
+scoreboard objectives add core_boots_frost_walker dummy
+scoreboard objectives add core_boots_feather_falling dummy
+#final
+scoreboard objectives add core_temp_score dummy
+scoreboard objectives add absorb_enchantments trigger
+scoreboard objectives add core_enchant trigger

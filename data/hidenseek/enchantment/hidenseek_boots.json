@@ -1,0 +1,85 @@
+{
+    "description": "hidenseek_boots",
+    "supported_items": "minecraft:leather_boots",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "hidenseek:set_adventure_survival"
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "hidenseek:set_invisibility"
+                },
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "armor.chest": {
+                                    "items": "minecraft:leather_chestplate"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "hidenseek:unset_invisibility"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "armor.chest": {
+                                "items": "minecraft:leather_chestplate"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "hidenseek:say_tagged"
+                }
+            }
+        ]
+    }
+}
