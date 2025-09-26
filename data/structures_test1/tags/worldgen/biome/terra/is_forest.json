@@ -1,15 +1,48 @@
 {
     "values": [
-        "terralith:amethyst_canyon",
-        "terralith:blooming_valley",
-        "terralith:cloud_forest",
-        "terralith:lavender_forest",
-        "terralith:lavender_valley",
-        "terralith:moonlight_grove",
-        "terralith:moonlight_valley",
-        "terralith:sakura_grove",
-        "terralith:sakura_valley",
-        "terralith:yosemite_lowlands",
-        "terralith:wintry_lowlands"
+        {
+            "id": "terralith:amethyst_canyon",
+            "required": false
+        },
+        {
+            "id": "terralith:blooming_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:cloud_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:lavender_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:lavender_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:moonlight_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:moonlight_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:sakura_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:sakura_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:yosemite_lowlands",
+            "required": false
+        },
+        {
+            "id": "terralith:wintry_lowlands",
+            "required": false
+        }
     ]
 }

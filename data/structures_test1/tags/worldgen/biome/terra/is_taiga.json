@@ -1,8 +1,20 @@
 {
     "values": [
-        "terralith:birch_taiga",
-        "terralith:shield",
-        "terralith:siberian_taiga",
-        "terralith:snowy_shield"
+        {
+            "id": "terralith:birch_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:shield",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_shield",
+            "required": false
+        }
     ]
 }

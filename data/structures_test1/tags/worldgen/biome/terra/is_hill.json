@@ -1,18 +1,60 @@
 {
     "values": [
-        "terralith:alpine_grove",
-        "terralith:alpine_highlands",
-        "terralith:arid_highlands",
-        "terralith:blooming_plateau",
-        "terralith:forested_highlands",
-        "terralith:haze_mountain",
-        "terralith:highlands",
-        "terralith:siberian_grove",
-        "terralith:snowy_cherry_grove",
-        "terralith:snowy_maple_forest",
-        "terralith:snowy_shield",
-        "terralith:temperate_highlands",
-        "terralith:yosemite_cliffs",
-        "terralith:wintry_forest"
+        {
+            "id": "terralith:alpine_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:arid_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:blooming_plateau",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:haze_mountain",
+            "required": false
+        },
+        {
+            "id": "terralith:highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_cherry_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_maple_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_shield",
+            "required": false
+        },
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:yosemite_cliffs",
+            "required": false
+        },
+        {
+            "id": "terralith:wintry_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_grove",
+            "required": false
+        }
     ]
 }
