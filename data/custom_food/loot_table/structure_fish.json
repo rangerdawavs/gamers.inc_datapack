@@ -24,14 +24,19 @@
                                         "minecraft:custom_model_data": 597561,
                                         "minecraft:food": {
                                             "nutrition": 1,
-                                            "saturation": 0.2,
-                                            "effects": [
+                                            "saturation": 0.2
+                                        },
+                                        "minecraft:consumable": {
+                                            "on_consume_effects": [
                                                 {
-                                                    "effect": {
-                                                        "id": "speed",
-                                                        "duration": 100,
-                                                        "amplifier": 1
-                                                    }
+                                                    "type": "apply_effects",
+                                                    "effects": [
+                                                        {
+                                                            "id": "speed",
+                                                            "duration": 100,
+                                                            "amplifier": 1
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }

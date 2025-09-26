@@ -1,21 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-      "sls",
-      "l l",
-      "lll"
-    ],
-    "key": {
-      "l": {
-        "item": "minecraft:leather"
-      },
-      "s": {
-        "item": "minecraft:string"
-      }
-    },
-    "result": {
-      "id": "minecraft:bundle"
-    }
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "sls",
+    "l l",
+    "lll"
+  ],
+  "key": {
+    "l": "minecraft:leather",
+    "s": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:bundle"
   }
-  
+}
