@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ {CustomName:"\"spawn\"",Tags:[location]}
+summon marker ~ ~ ~ {CustomName:"spawn",Tags:[location]}

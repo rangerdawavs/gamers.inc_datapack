@@ -11,7 +11,7 @@
                             "text": ""
                         },
                         {
-                            "text": "Absorb Enchantments\\n\\n",
+                            "text": "Absorb Enchantments\n\n",
                             "click_event": {
                                 "action": "run_command",
                                 "command": "/trigger absorb_enchantments"
@@ -19,17 +19,17 @@
                             "color": "dark_purple"
                         },
                         {
-                            "text": "The amount of essence determines the level of the enchantment that is aplied.\\nIn general:\\n3 e. for level 1\\n6 e. for level 2\\n9 e. for level 3\\n12 e. for level 4\\n15 e. for level 5"
+                            "text": "The amount of essence determines the level of the enchantment that is aplied.\nIn general:\n3 e. for level 1\n6 e. for level 2\n9 e. for level 3\n12 e. for level 4\n15 e. for level 5"
                         }
                     ]
                 },
                 {
                     "raw": [
                         {
-                            "text": "Pickaxe\\n\\n"
+                            "text": "Pickaxe\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -38,7 +38,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -50,7 +50,7 @@
                             }
                         },
                         {
-                            "text": "Efficiency\\nEssence: "
+                            "text": "Efficiency\nEssence: "
                         },
                         {
                             "score": {
@@ -59,7 +59,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -71,7 +71,7 @@
                             }
                         },
                         {
-                            "text": "Fortune\\nEssence: "
+                            "text": "Fortune\nEssence: "
                         },
                         {
                             "score": {
@@ -80,7 +80,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -92,7 +92,7 @@
                             }
                         },
                         {
-                            "text": "Silk Touch\\nEssence: "
+                            "text": "Silk Touch\nEssence: "
                         },
                         {
                             "score": {
@@ -101,7 +101,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -117,10 +117,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Pickaxe page 2\\n\\n"
+                            "text": "Pickaxe page 2\n\n"
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -129,7 +129,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -145,10 +145,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Axe\\n\\n"
+                            "text": "Axe\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -157,7 +157,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -169,7 +169,7 @@
                             }
                         },
                         {
-                            "text": "Efficiency\\nEssence: "
+                            "text": "Efficiency\nEssence: "
                         },
                         {
                             "score": {
@@ -178,7 +178,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -190,7 +190,7 @@
                             }
                         },
                         {
-                            "text": "Fortune\\nEssence: "
+                            "text": "Fortune\nEssence: "
                         },
                         {
                             "score": {
@@ -199,7 +199,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -211,7 +211,7 @@
                             }
                         },
                         {
-                            "text": "Silk Touch\\nEssence: "
+                            "text": "Silk Touch\nEssence: "
                         },
                         {
                             "score": {
@@ -220,7 +220,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -236,10 +236,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Axe page 2\\n\\n"
+                            "text": "Axe page 2\n\n"
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -248,7 +248,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -264,10 +264,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Shovel\\n\\n"
+                            "text": "Shovel\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -276,7 +276,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -288,7 +288,7 @@
                             }
                         },
                         {
-                            "text": "Efficiency\\nEssence: "
+                            "text": "Efficiency\nEssence: "
                         },
                         {
                             "score": {
@@ -297,7 +297,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -309,7 +309,7 @@
                             }
                         },
                         {
-                            "text": "Fortune\\nEssence: "
+                            "text": "Fortune\nEssence: "
                         },
                         {
                             "score": {
@@ -318,7 +318,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -330,7 +330,7 @@
                             }
                         },
                         {
-                            "text": "Silk Touch\\nEssence: "
+                            "text": "Silk Touch\nEssence: "
                         },
                         {
                             "score": {
@@ -339,7 +339,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -355,10 +355,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Shovel page 2\\n\\n"
+                            "text": "Shovel page 2\n\n"
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -367,7 +367,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -383,10 +383,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Helmet\\n\\n"
+                            "text": "Helmet\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -395,7 +395,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -407,7 +407,7 @@
                             }
                         },
                         {
-                            "text": "Thorns\\nEssence: "
+                            "text": "Thorns\nEssence: "
                         },
                         {
                             "score": {
@@ -416,7 +416,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -428,7 +428,7 @@
                             }
                         },
                         {
-                            "text": "Respiration\\nEssence: "
+                            "text": "Respiration\nEssence: "
                         },
                         {
                             "score": {
@@ -437,7 +437,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -449,7 +449,7 @@
                             }
                         },
                         {
-                            "text": "Aqua Affinity\\nEssence: "
+                            "text": "Aqua Affinity\nEssence: "
                         },
                         {
                             "score": {
@@ -458,7 +458,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -474,10 +474,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Helmet page 2\\n\\n"
+                            "text": "Helmet page 2\n\n"
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -486,7 +486,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -498,7 +498,7 @@
                             }
                         },
                         {
-                            "text": "Protection\\nEssence: "
+                            "text": "Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -507,7 +507,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -519,7 +519,7 @@
                             }
                         },
                         {
-                            "text": "Blast Protection\\nEssence: "
+                            "text": "Blast Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -528,7 +528,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -540,7 +540,7 @@
                             }
                         },
                         {
-                            "text": "Fire Protection\\nEssence: "
+                            "text": "Fire Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -549,7 +549,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -565,10 +565,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Helmet page 3\\n\\n"
+                            "text": "Helmet page 3\n\n"
                         },
                         {
-                            "text": "Projectile Protection\\nEssence: "
+                            "text": "Projectile Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -577,7 +577,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -593,10 +593,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Chestplate\\n\\n"
+                            "text": "Chestplate\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -605,7 +605,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -617,7 +617,7 @@
                             }
                         },
                         {
-                            "text": "Thorns\\nEssence: "
+                            "text": "Thorns\nEssence: "
                         },
                         {
                             "score": {
@@ -626,7 +626,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -638,7 +638,7 @@
                             }
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -647,7 +647,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -659,7 +659,7 @@
                             }
                         },
                         {
-                            "text": "Protection\\nEssence: "
+                            "text": "Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -668,7 +668,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -684,10 +684,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Chestplate page 2\\n\\n"
+                            "text": "Chestplate page 2\n\n"
                         },
                         {
-                            "text": "Blast Protection\\nEssence: "
+                            "text": "Blast Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -696,7 +696,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -708,7 +708,7 @@
                             }
                         },
                         {
-                            "text": "Fire Protection\\nEssence: "
+                            "text": "Fire Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -717,7 +717,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -729,7 +729,7 @@
                             }
                         },
                         {
-                            "text": "Projectile Protection\\nEssence: "
+                            "text": "Projectile Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -738,7 +738,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -754,10 +754,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Leggings\\n\\n"
+                            "text": "Leggings\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -766,7 +766,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -778,7 +778,7 @@
                             }
                         },
                         {
-                            "text": "Thorns\\nEssence: "
+                            "text": "Thorns\nEssence: "
                         },
                         {
                             "score": {
@@ -787,7 +787,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -799,7 +799,7 @@
                             }
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -808,7 +808,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -820,7 +820,7 @@
                             }
                         },
                         {
-                            "text": "Protection\\nEssence: "
+                            "text": "Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -829,7 +829,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -845,10 +845,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Leggings page 2\\n\\n"
+                            "text": "Leggings page 2\n\n"
                         },
                         {
-                            "text": "Blast Protection\\nEssence: "
+                            "text": "Blast Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -857,7 +857,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -869,7 +869,7 @@
                             }
                         },
                         {
-                            "text": "Fire Protection\\nEssence: "
+                            "text": "Fire Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -878,7 +878,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -890,7 +890,7 @@
                             }
                         },
                         {
-                            "text": "Projectile Protection\\nEssence: "
+                            "text": "Projectile Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -899,7 +899,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -911,7 +911,7 @@
                             }
                         },
                         {
-                            "text": "Swift Sneak\\nEssence: "
+                            "text": "Swift Sneak\nEssence: "
                         },
                         {
                             "score": {
@@ -920,7 +920,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -936,10 +936,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Boots\\n\\n"
+                            "text": "Boots\n\n"
                         },
                         {
-                            "text": "Unbreaking\\nEssence: "
+                            "text": "Unbreaking\nEssence: "
                         },
                         {
                             "score": {
@@ -948,7 +948,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -960,7 +960,7 @@
                             }
                         },
                         {
-                            "text": "Thorns\\nEssence: "
+                            "text": "Thorns\nEssence: "
                         },
                         {
                             "score": {
@@ -969,7 +969,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -981,7 +981,7 @@
                             }
                         },
                         {
-                            "text": "Mending\\nEssence: "
+                            "text": "Mending\nEssence: "
                         },
                         {
                             "score": {
@@ -990,7 +990,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1002,7 +1002,7 @@
                             }
                         },
                         {
-                            "text": "Protection\\nEssence: "
+                            "text": "Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -1011,7 +1011,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1027,10 +1027,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Boots page 2\\n\\n"
+                            "text": "Boots page 2\n\n"
                         },
                         {
-                            "text": "Blast Protection\\nEssence: "
+                            "text": "Blast Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -1039,7 +1039,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1051,7 +1051,7 @@
                             }
                         },
                         {
-                            "text": "Fire Protection\\nEssence: "
+                            "text": "Fire Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -1060,7 +1060,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1072,7 +1072,7 @@
                             }
                         },
                         {
-                            "text": "Projectile Protection\\nEssence: "
+                            "text": "Projectile Protection\nEssence: "
                         },
                         {
                             "score": {
@@ -1081,7 +1081,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1093,7 +1093,7 @@
                             }
                         },
                         {
-                            "text": "Soul Speed\\nEssence: "
+                            "text": "Soul Speed\nEssence: "
                         },
                         {
                             "score": {
@@ -1102,7 +1102,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1118,10 +1118,10 @@
                 {
                     "raw": [
                         {
-                            "text": "Boots page 3\\n\\n"
+                            "text": "Boots page 3\n\n"
                         },
                         {
-                            "text": "Depth Strider\\nEssence: "
+                            "text": "Depth Strider\nEssence: "
                         },
                         {
                             "score": {
@@ -1130,7 +1130,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1142,7 +1142,7 @@
                             }
                         },
                         {
-                            "text": "Frost Walker\\nEssence: "
+                            "text": "Frost Walker\nEssence: "
                         },
                         {
                             "score": {
@@ -1151,7 +1151,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
@@ -1163,7 +1163,7 @@
                             }
                         },
                         {
-                            "text": "Feather Falling\\nEssence: "
+                            "text": "Feather Falling\nEssence: "
                         },
                         {
                             "score": {
@@ -1172,7 +1172,7 @@
                             }
                         },
                         {
-                            "text": " Enchant\\n\\n",
+                            "text": " Enchant\n\n",
                             "hover_event": {
                                 "action": "show_text",
                                 "value": "Cost: 1 essence"
