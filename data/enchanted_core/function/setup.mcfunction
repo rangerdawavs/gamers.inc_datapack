@@ -55,6 +55,13 @@ scoreboard objectives add core_boots_soul_speed dummy
 scoreboard objectives add core_boots_depth_strider dummy
 scoreboard objectives add core_boots_frost_walker dummy
 scoreboard objectives add core_boots_feather_falling dummy
+#bow
+scoreboard objectives add core_bow_unbreaking dummy
+scoreboard objectives add core_bow_mending dummy
+scoreboard objectives add core_bow_power dummy
+scoreboard objectives add core_bow_punch dummy
+scoreboard objectives add core_bow_flame dummy
+scoreboard objectives add core_bow_infinity dummy
 #final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger

@@ -1184,6 +1184,146 @@
                             }
                         }
                     ]
+                },
+                {
+                    "raw": [
+                        {
+                            "text": "Bow\n\n"
+                        },
+                        {
+                            "text": "Unbreaking\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "Mending\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Power\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_power"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 18"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "raw": [
+                        {
+                            "text": "Bow page 2\n\n"
+                        },
+                        {
+                            "text": "Punch\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_punch"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 19"
+                            }
+                        },
+                        {
+                            "text": "flame\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_flame"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 20"
+                            }
+                        },
+                        {
+                            "text": "Infinity\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_bow_infinity"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 21"
+                            }
+                        }
+                    ]
                 }
             ]
         }

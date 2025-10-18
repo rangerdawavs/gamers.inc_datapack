@@ -4,7 +4,7 @@
         {
             "function": "set_enchantments",
             "enchantments": {
-                "mending": 1
+                "infinity": 1
             },
             "add": true,
             "conditions": [
@@ -19,7 +19,7 @@
                                     "predicates": {
                                         "enchantments": [
                                             {
-                                                "enchantments": "infinity"
+                                                "enchantments": "mending"
                                             }
                                         ]
                                     }
@@ -45,7 +45,7 @@
                                     "predicates": {
                                         "enchantments": [
                                             {
-                                                "enchantments": "infinity"
+                                                "enchantments": "mending"
                                             }
                                         ]
                                     }
