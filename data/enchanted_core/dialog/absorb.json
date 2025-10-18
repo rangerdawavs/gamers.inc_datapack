@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:confirmation",
+    "title": "Absorb",
+    "yes": {
+        "label": "yes"
+    },
+    "no":{
+        "label": "no"
+    }
+}

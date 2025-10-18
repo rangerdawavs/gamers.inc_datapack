@@ -1,0 +1,1 @@
+execute store result score @s load_unload_horse run function pegasus:load_unload_horse

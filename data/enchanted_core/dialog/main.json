@@ -1,0 +1,7 @@
+{
+    "type":"minecraft:dialog_list",
+    "title": "Enchanted core",
+    "dialogs": [
+        "enchanted_core:information"
+    ]
+}
