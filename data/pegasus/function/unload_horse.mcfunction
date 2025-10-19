@@ -1,1 +1,2 @@
-execute as @e[type=horse,tag=pegasus] if score @s id = @p id run tp @s @e[type=marker,tag=location,name="stable",limit=1]
+execute as @e[type=#can_equip_saddle,type=!strider,tag=pegasus] if score @s id = @p id run tp @s @e[type=marker,name="stable",limit=1]
+execute as @e[type=strider,tag=pegasus] if score @s id = @p id run tp @s @e[type=marker,name="nether_stable",limit=1]

@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:horse,tag=pegasus] if score @s id = @p id run tp ~ ~ ~
+execute as @e[type=#can_equip_saddle,tag=pegasus] if score @s id = @p id run tp ~ ~ ~
