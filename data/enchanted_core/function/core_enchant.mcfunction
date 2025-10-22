@@ -6,6 +6,7 @@ execute if items entity @s weapon.offhand #chest_armor run function enchanted_co
 execute if items entity @s weapon.offhand #leg_armor run function enchanted_core:core_enchant_leggings
 execute if items entity @s weapon.offhand #foot_armor run function enchanted_core:core_enchant_boots
 execute if items entity @s weapon.offhand bow run function enchanted_core:core_enchant_bow
+execute if items entity @s weapon.offhand #swords run function enchanted_core:core_enchant_sword
 #final
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] unless items entity @s weapon.offhand *[custom_data~{core:1b}] run item modify entity @s weapon.offhand enchanted_core:add_core_designation
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] run item modify entity @s weapon.offhand enchanted_core:remove_temp
@@ -33,3 +34,10 @@ scoreboard players set @s core_enchant 0
 #19-punch
 #20-flame
 #21-infinity
+#22-sharpness
+#23-smite
+#24-bane of arthropods
+#25-looting
+#26-knockback
+#27-fire aspect
+#28-sweeping edge

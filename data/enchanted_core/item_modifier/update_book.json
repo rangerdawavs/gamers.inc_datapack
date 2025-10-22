@@ -1324,6 +1324,216 @@
                             }
                         }
                     ]
+                },
+                {
+                    "raw": [
+                        {
+                            "text": "Sword\n\n"
+                        },
+                        {
+                            "text": "Unbreaking\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_unbreaking"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 1"
+                            }
+                        },
+                        {
+                            "text": "mending\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_mending"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 5"
+                            }
+                        },
+                        {
+                            "text": "Sharpness\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_sharpness"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 22"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "raw": [
+                        {
+                            "text": "Sword page 2\n\n"
+                        },
+                        {
+                            "text": "smite\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_smite"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 23"
+                            }
+                        },
+                        {
+                            "text": "Bane of Arthr.\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_bane_of_arthropods"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 24"
+                            }
+                        },
+                        {
+                            "text": "looting\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_looting"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 25"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "raw": [
+                        {
+                            "text": "Sword page 3\n\n"
+                        },
+                        {
+                            "text": "Knockback\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_knockback"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 26"
+                            }
+                        },
+                        {
+                            "text": "Fire Aspect\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_fire_aspect"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 27"
+                            }
+                        },
+                        {
+                            "text": "Sweeping Edge\nEssence: "
+                        },
+                        {
+                            "score": {
+                                "name": "*",
+                                "objective": "core_sword_sweeping_edge"
+                            }
+                        },
+                        {
+                            "text": " Enchant\n\n",
+                            "hover_event": {
+                                "action": "show_text",
+                                "value": "Cost: 1 essence"
+                            },
+                            "color": "dark_purple",
+                            "click_event": {
+                                "action": "run_command",
+                                "command": "/trigger core_enchant set 28"
+                            }
+                        }
+                    ]
                 }
             ]
         }
