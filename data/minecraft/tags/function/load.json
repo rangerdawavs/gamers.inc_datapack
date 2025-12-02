@@ -10,6 +10,7 @@
 		"ipod:setup",
 		"communist_villagers:setup",
 		"enchanted_core:setup",
-		"elemental_reactions:setup"
+		"elemental_reactions:setup",
+		"ui:init"
 	]
 }
