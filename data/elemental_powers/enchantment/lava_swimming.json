@@ -1,0 +1,63 @@
+{
+    "description": "lava swimming",
+    "supported_items": "#minecraft:leg_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "legs"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:fire_type/lava_swimming_start_detection"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 5
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "block": {
+                                        "blocks": "lava"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "input": {
+                                        "sneak": true
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
