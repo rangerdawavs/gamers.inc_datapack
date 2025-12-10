@@ -1,0 +1,32 @@
+{
+  "parent":"pegasus:craft_pegasus_feather",  
+  "criteria": {
+        "used_feather":{
+            "trigger":  "impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Link to a horse"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:saddle",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "You called?"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "used_feather"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

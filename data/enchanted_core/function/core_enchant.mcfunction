@@ -10,7 +10,8 @@ execute if items entity @s weapon.offhand #swords run function enchanted_core:co
 #final
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] unless items entity @s weapon.offhand *[custom_data~{core:1b}] run item modify entity @s weapon.offhand enchanted_core:add_core_designation
 execute if items entity @s weapon.offhand *[custom_data~{core_enchanted_temp:1b}] run item modify entity @s weapon.offhand enchanted_core:remove_temp
-item modify entity @s weapon.mainhand enchanted_core:update_book
+execute if items entity @s weapon.mainhand written_book[custom_data~{core_enchants_book:true}] run item modify entity @s weapon.mainhand enchanted_core:update_book
+execute if items entity @s weapon.mainhand written_book[custom_data~{core_enchants_book:true}] run advancement grant @s only enchanted_core:enchanted_item
 scoreboard players set @s core_enchant 0
 #list of enchantment scores:
 #1-unbreaking

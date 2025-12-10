@@ -1,0 +1,31 @@
+{
+  "parent":"enchanted_core:craft_core_enchants_book",
+  "criteria": {
+        "absorbed_item":{
+            "trigger":  "impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Absorb an item's enchantment"
+    },
+    "icon": {
+      "count": 1,
+      "id": "wooden_pickaxe",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Reduce, Reuse, Recycle"
+    }
+  },
+  "requirements": [
+    [
+      "absorbed_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

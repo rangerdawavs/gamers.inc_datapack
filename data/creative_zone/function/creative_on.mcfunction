@@ -6,3 +6,4 @@ execute at @s run execute store result score @s ow_xcord run data get entity @s 
 execute at @s run execute store result score @s ow_ycord run data get entity @s Pos[1]
 execute at @s run execute store result score @s ow_zcord run data get entity @s Pos[2]
 execute in creative_zone:creative_plane run tp @s 0 100 0
+advancement grant @s only creative_zone:creative_portal_entered

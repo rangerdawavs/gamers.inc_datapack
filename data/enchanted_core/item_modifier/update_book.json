@@ -1,6 +1,9 @@
 {
     "function": "set_components",
     "components": {
+        "custom_data":{
+            "core_enchants_book":true
+        },
         "written_book_content": {
             "title": "Enchanted Core",
             "author": "Anonymous",

@@ -1,0 +1,29 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "activated_tp":{
+            "trigger":  "minecraft:impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Teleport back to the world spawn"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Where it all began"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "activated_tp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

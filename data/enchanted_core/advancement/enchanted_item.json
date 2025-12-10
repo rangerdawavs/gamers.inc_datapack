@@ -1,0 +1,32 @@
+{
+  "parent":"enchanted_core:absorbed_item",
+  "criteria": {
+        "enchanted_item":{
+            "trigger":  "impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Enchant an item using the enchanted core book"
+    },
+    "icon": {
+      "count": 1,
+      "id": "diamond_pickaxe",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A new way to Enchant"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "enchanted_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
