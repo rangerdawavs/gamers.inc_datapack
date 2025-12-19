@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ {CustomName:"\"stable\"",Tags:[location]}
+summon marker ~ ~ ~ {CustomName:"stable",Tags:[location]}

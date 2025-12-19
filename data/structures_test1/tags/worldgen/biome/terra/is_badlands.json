@@ -1,8 +1,20 @@
 {
     "values": [
-        "terralith:ancient_sands",
-        "terralith:bryce_canyon",
-        "terralith:savanna_badlands",
-        "terralith:snowy_badlands"
+        {
+            "id": "terralith:ancient_sands",
+            "required": false
+        },
+        {
+            "id": "terralith:bryce_canyon",
+            "required": false
+        },
+        {
+            "id": "terralith:savanna_badlands",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_badlands",
+            "required": false
+        }
     ]
 }

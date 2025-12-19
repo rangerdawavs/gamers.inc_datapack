@@ -1,0 +1,2 @@
+function elemental_reactions:tags_timer
+schedule function elemental_reactions:1_second_tick 20t

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:fishing_rod",
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "components": {
+            "damage": 0
+        }
+    },
+    "template": "minecraft:stick",
+    "addition": "minecraft:string"
+}

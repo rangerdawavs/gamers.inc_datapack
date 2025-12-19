@@ -1,0 +1,41 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "crafted_feather":{
+            "trigger":  "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "custom_data": {"pegasus":100,"pegasus_feather":true}
+                        },
+                        "items": "feather"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Craft a pegasus feather"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:feather",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The legendary Horse"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_feather"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

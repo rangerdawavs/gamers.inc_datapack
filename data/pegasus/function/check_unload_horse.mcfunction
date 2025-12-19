@@ -1,2 +1,3 @@
 execute if data entity @s SelectedItem.components."minecraft:custom_data".pegasus store result score @s id run data get entity @s SelectedItem.components."minecraft:custom_data".pegasus
-execute if data entity @s SelectedItem.components."minecraft:custom_data".pegasus run function pegasus:unload_horse
+execute if data entity @s SelectedItem.components."minecraft:custom_data".pegasus positioned ~ ~-1 ~ unless entity @e[type=#can_equip_saddle,distance=..1] run function pegasus:unload_horse
+scoreboard players set @a horse_unload 0

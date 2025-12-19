@@ -1,7 +1,16 @@
 {
     "values": [
-        "terralith:amethyst_rainforest",
-        "terralith:rocky_jungle",
-        "terralith:tropical_jungle"
+        {
+            "id": "terralith:amethyst_rainforest",
+            "required": false
+        },
+        {
+            "id": "terralith:rocky_jungle",
+            "required": false
+        },
+        {
+            "id": "terralith:tropical_jungle",
+            "required": false
+        }
     ]
 }

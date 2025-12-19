@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {"pegasus_feather":true}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pegasus:click_detected"
+    }
+}

@@ -1,0 +1,2 @@
+$item replace entity @s weapon.mainhand with feather[custom_name="Feather of Pegasus",custom_data={"pegasus": $(temp) ,"pegasus_feather":true},consumable={"animation": "brush","consume_seconds": 100000,"has_consume_particles": false,"sound": "entity.breeze.wind_burst"},rarity="uncommon",enchantment_glint_override= true]
+say feather updated

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:elytra",
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {
+            "damage": 0
+        }
+    },
+    "template": "minecraft:phantom_membrane"
+}

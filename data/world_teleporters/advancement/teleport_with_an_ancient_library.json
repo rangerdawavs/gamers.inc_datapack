@@ -1,0 +1,29 @@
+{
+  "parent":"world_teleporters:pray_at_an_ancient_library",  
+  "criteria": {
+        "teleport_with_ancient_library":{
+            "trigger":  "minecraft:impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Travel via lightning using an enchanted book from another library"
+    },
+    "icon": {
+      "count": 1,
+      "id": "lightning_rod"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Lightning Road"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "teleport_with_ancient_library"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

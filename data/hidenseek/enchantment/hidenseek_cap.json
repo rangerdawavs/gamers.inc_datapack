@@ -21,7 +21,7 @@
           "effect": {
             "type": "minecraft:attribute",
             "id": "hidenseek:hidenseek_cap",
-            "attribute": "minecraft:generic.scale",
+            "attribute": "minecraft:scale",
             "amount": -0.75,
             "operation": "add_value"
           },

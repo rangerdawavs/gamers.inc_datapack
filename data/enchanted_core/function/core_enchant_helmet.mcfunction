@@ -17,7 +17,7 @@ execute if score @s core_enchant matches 7 if items entity @s weapon.offhand *[e
 execute if score @s core_enchant matches 7 if items entity @s weapon.offhand *[enchantments~[{enchantments:respiration,levels:2}]] if score @s core_helmet_respiration matches 9.. run item modify entity @s weapon.offhand enchanted_core:add_respiration
 execute if score @s core_enchant matches 7 if items entity @s weapon.offhand *[custom_data~{"core_enchanted_temp":1b}] run scoreboard players remove @s core_helmet_respiration 1
 #aqua affinity
-execute if score @s core_enchant matches 8 if items entity @s weapon.offhand *[enchantments~[{enchantments:aqua_affinity,levels:2}]] if score @s core_helmet_aqua_affinity matches 9.. run item modify entity @s weapon.offhand enchanted_core:add_aqua_affinity
+execute if score @s core_enchant matches 8 unless items entity @s weapon.offhand *[enchantments~[{enchantments:aqua_affinity}]] if score @s core_helmet_aqua_affinity matches 3.. run item modify entity @s weapon.offhand enchanted_core:add_aqua_affinity
 execute if score @s core_enchant matches 8 if items entity @s weapon.offhand *[custom_data~{"core_enchanted_temp":1b}] run scoreboard players remove @s core_helmet_aqua_affinity 1
 #protection
 execute if score @s core_enchant matches 9 unless items entity @s weapon.offhand *[enchantments~[{enchantments:protection}]] if score @s core_helmet_protection matches 3.. run item modify entity @s weapon.offhand enchanted_core:add_protection

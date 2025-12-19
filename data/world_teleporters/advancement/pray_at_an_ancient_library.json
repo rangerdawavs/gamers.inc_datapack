@@ -1,0 +1,35 @@
+{
+    "parent": "spawn_tp:root",
+    "criteria": {
+        "interacted_with_ancient_library": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[ancient_tp_library]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Interact with an ancient Library"
+        },
+        "icon": {
+            "count": 1,
+            "id": "lectern"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "The Lightning god's Shrine"
+        },
+        "frame": "task"
+    },
+    "requirements": [
+        [
+            "interacted_with_ancient_library"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

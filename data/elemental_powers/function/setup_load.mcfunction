@@ -7,5 +7,11 @@ scoreboard objectives add channel_fire_aspect trigger
 scoreboard objectives add grass_vine_distance dummy
 scoreboard objectives add power2_delay dummy
 scoreboard objectives add power3_delay dummy
+scoreboard objectives add last_tp_x dummy
+scoreboard objectives add last_tp_y dummy
+scoreboard objectives add last_tp_z dummy
+scoreboard objectives add last_tp_dimension dummy
+scoreboard objectives add last_tp_gamemode dummy
+function elemental_powers:delayed_10_tick
 function elemental_powers:delayed_20_tick
 function elemental_powers:delayed_1_minute_tick

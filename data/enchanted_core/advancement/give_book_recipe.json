@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_writable_book": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:writable_book"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_lapis": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:lapis_lazuli"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_writable_book",
+            "has_lapis"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "enchanted_core:core_enchantments_book"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "parent":"spawn_tp:root",
+  "criteria": {
+        "found_structure":{
+            "trigger":  "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": [
+                            "creative_zone:creative_plane_portal"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Find a creative dimension portal"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:orange_glazed_terracotta"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Taste the Rainbow"
+    }
+  },
+  "requirements": [
+    [
+      "found_structure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

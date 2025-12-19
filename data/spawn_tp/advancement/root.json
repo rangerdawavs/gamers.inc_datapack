@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "Start":{
+            "trigger": "tick"
+        }
+    },
+    "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "text":"Welcome to the Gamers.inc experience"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:writable_book"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Gamers.inc"
+    }
+  },
+  "requirements": [
+    [
+      "Start"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,14 +1,44 @@
 {
     "values": [
-        "terralith:desert_spires",
-        "terralith:emerald_peaks",
-        "terralith:glacial_chasm",
-        "terralith:jungle_mountains",
-        "terralith:painted_mountains",
-        "terralith:rocky_mountains",
-        "terralith:scarlet_mountains",
-        "terralith:stony_spires",
-        "terralith:volcanic_peaks",
-        "terralith:windswept_spires"
+        {
+            "id": "terralith:desert_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:emerald_peaks",
+            "required": false
+        },
+        {
+            "id": "terralith:glacial_chasm",
+            "required": false
+        },
+        {
+            "id": "terralith:jungle_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:painted_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:rocky_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:scarlet_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:stony_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:volcanic_peaks",
+            "required": false
+        },
+        {
+            "id": "terralith:windswept_spires",
+            "required": false
+        }
     ]
 }

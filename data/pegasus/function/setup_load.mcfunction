@@ -5,4 +5,6 @@ scoreboard objectives add horse_jump dummy
 scoreboard objectives add horse_speed dummy
 scoreboard objectives add horse_health dummy
 scoreboard objectives add horse_info trigger
-tellraw @a {"text":"pegasus by lolaso6809","color":"yellow"}
+scoreboard objectives add cooldown_pegasus_feather dummy
+scoreboard objectives add load_unload_horse dummy
+tellraw @a {text:"pegasus by lolaso6809",color:"yellow"}

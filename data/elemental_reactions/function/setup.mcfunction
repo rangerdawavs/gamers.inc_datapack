@@ -1,0 +1,2 @@
+scoreboard objectives add elemental_reactions_water_timer dummy
+function elemental_reactions:1_second_tick

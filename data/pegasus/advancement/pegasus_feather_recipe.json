@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_apple":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": "apple"}]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_apple"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "pegasus:pegasus_feather"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "confirmation",
+    "title": "Link to horse?",
+    "body": {
+        "type": "plain_message",
+        "contents": "clicking yes will link the feather currently held to the horse that is currently being ridden"
+    },
+    "yes": {
+        "label": "yes",
+        "action": {
+            "type": "run_command",
+            "command": "execute positioned ~ ~-1 ~ run function pegasus:setup_feather"
+        }
+    },
+    "no": {
+        "label": "no"
+    }
+}

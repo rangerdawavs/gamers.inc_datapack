@@ -1,0 +1,1 @@
+execute as @s[tag=fire_type,tag=!lava_swimming] at @s if block ~ ~1.1 ~ lava run function elemental_powers:fire_type/enter_lava_swimming

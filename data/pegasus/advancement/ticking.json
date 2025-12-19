@@ -1,0 +1,8 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {"function": "pegasus:feather_cooldown"}
+}

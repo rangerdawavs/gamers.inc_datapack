@@ -1,0 +1,29 @@
+{
+  "parent":"creative_zone:creative_portal_found",  
+  "criteria": {
+        "portal_entered":{
+            "trigger":  "minecraft:impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Enter the creative plane"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:command_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A world of pure Imagination"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "portal_entered"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
