@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:bow",
+    "result": {
+        "id": "minecraft:bow",
+        "components": {
+            "damage": 0
+        }
+    },
+    "template": "minecraft:stick",
+    "addition": "minecraft:string"
+}
