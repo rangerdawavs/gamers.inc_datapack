@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "id": "snowy_slopes"
+        },
+        {
+            "id": "jagged_peaks"
+        },
+        {
+            "id": "stony_peaks"
+        },
+        {
+            "id": "stony_shore"
+        },
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:alpine_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:rocky_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:granite_cliffs",
+            "required": false
+        },
+        {
+            "id": "terralith:white_cliffs",
+            "required": false
+        },
+        {
+            "id": "terralith:windswept_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:stony_spires",
+            "required": false
+        },
+        {
+            "id": "terralith:yosemite_cliffs",
+            "required": false
+        }
+    ]
+}

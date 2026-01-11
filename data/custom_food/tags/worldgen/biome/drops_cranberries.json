@@ -1,0 +1,22 @@
+{
+    "values": [
+        {
+            "id": "swamp"
+        },
+        {
+            "id": "mangrove_swamp"
+        },
+        {
+            "id": "terralith:orchid_swamp",
+            "required": false
+        },
+        {
+            "id": "terralith:ice_marsh",
+            "required": false
+        },
+        {
+            "id": "terralith:warm_river",
+            "required": false
+        }
+    ]
+}

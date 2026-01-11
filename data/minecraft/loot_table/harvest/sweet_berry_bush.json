@@ -1,0 +1,242 @@
+{
+  "type": "minecraft:block_interact",
+  "functions": [
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_blackberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Blackberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_blueberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Blueberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_cranberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Cranberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_elderberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Elderberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_gojiberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Gojiberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_gooseberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Gooseberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_huckleberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Huckleberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_ligonberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Ligonberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_raspberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Raspberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_strawberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Strawberries"
+        }
+    },
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "interacting_entity",
+                "predicate": {
+                    "location": {
+                        "biomes": "#custom_food:drops_sweetberries"
+                    }
+                }
+            }
+        ],
+        "components": {
+            "item_name": "Sweet berries"
+        }
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "minecraft:sweet_berry_bush",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "3"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sweet_berries"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:harvest/sweet_berry_bush"
+}

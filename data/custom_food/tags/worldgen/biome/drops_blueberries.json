@@ -1,0 +1,33 @@
+{
+    "values": [
+        {
+            "id": "birch_forest"
+        },
+        {
+            "id": "old_growth_birch_forest"
+        },
+        {
+            "id": "meadow"
+        },
+        {
+            "id": "terralith:blooming_plateau",
+            "required": false
+        },
+        {
+            "id": "terralith:blooming_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:lavender_valley",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_maple_forest",
+            "required": false
+        },
+        {
+            "id": "terralith:skylands_summer",
+            "required": false
+        }
+    ]
+}
