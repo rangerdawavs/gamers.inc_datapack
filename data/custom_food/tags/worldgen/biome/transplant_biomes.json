@@ -1,0 +1,34 @@
+{
+    "values": [
+        {
+            "id": "#custom_food:drops_blackberries"
+        },
+        {
+            "id": "#custom_food:drops_blueberries"
+        },
+        {
+            "id": "#custom_food:drops_cranberries"
+        },
+        {
+            "id": "#custom_food:drops_elderberries"
+        },
+        {
+            "id": "#custom_food:drops_gojiberries"
+        },
+        {
+            "id": "#custom_food:drops_gooseberries"
+        },
+        {
+            "id": "#custom_food:drops_huckleberries"
+        },
+        {
+            "id": "#custom_food:drops_ligonberries"
+        },
+        {
+            "id": "#custom_food:drops_raspberries"
+        },
+        {
+            "id": "#custom_food:drops_strawberries"
+        }
+    ]
+}

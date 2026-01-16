@@ -1,0 +1,31 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "mixing_bowl_used":{
+            "trigger":  "minecraft:impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Use a mixing bowl to create something new"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bowl",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Bowl go Brrr"
+    }
+  },
+  "requirements": [
+    [
+      "mixing_bowl_used"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

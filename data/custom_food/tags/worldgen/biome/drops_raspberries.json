@@ -16,6 +16,10 @@
         {
             "id": "terraltih:shield_clearing",
             "required": false
+        },
+        {
+            "id": "terraltih:sakura_valley",
+            "required": false
         }
     ]
 }

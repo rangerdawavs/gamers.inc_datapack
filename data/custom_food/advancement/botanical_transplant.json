@@ -1,0 +1,41 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "transplant":{
+            "trigger":  "placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "biomes": "#custom_food:transplant_biomes",
+                            "block": {
+                                "blocks": "sweet_berry_bush"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Transplant a biome specific crop"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sweet_berries"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Botanical Transplant"
+    }
+  },
+  "requirements": [
+    [
+      "transplant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

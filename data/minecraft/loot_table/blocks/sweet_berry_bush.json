@@ -15,7 +15,7 @@
             }
         ],
         "components": {
-            "item_name": "blackberries"
+            "item_name": "Blackberries"
         }
     },
     {
@@ -29,7 +29,7 @@
             }
         ],
         "components": {
-            "item_name": "blueberries"
+            "item_name": "Blueberries"
         }
     },
     {
@@ -43,7 +43,7 @@
             }
         ],
         "components": {
-            "item_name": "cranberries"
+            "item_name": "Cranberries"
         }
     },
     {
@@ -57,7 +57,7 @@
             }
         ],
         "components": {
-            "item_name": "elderberries"
+            "item_name": "Elderberries"
         }
     },
     {
@@ -71,7 +71,7 @@
             }
         ],
         "components": {
-            "item_name": "gojiberries"
+            "item_name": "Gojiberries"
         }
     },
     {
@@ -85,7 +85,7 @@
             }
         ],
         "components": {
-            "item_name": "gooseberries"
+            "item_name": "Gooseberries"
         }
     },
     {
@@ -99,7 +99,7 @@
             }
         ],
         "components": {
-            "item_name": "huckleberries"
+            "item_name": "Huckleberries"
         }
     },
     {
@@ -113,7 +113,7 @@
             }
         ],
         "components": {
-            "item_name": "ligonberries"
+            "item_name": "Ligonberries"
         }
     },
     {
@@ -127,7 +127,7 @@
             }
         ],
         "components": {
-            "item_name": "raspberries"
+            "item_name": "Raspberries"
         }
     },
     {
@@ -141,7 +141,7 @@
             }
         ],
         "components": {
-            "item_name": "strawberries"
+            "item_name": "Strawberries"
         }
     },
     {
@@ -155,7 +155,7 @@
             }
         ],
         "components": {
-            "item_name": "sweet berries"
+            "item_name": "Sweet berries"
         }
     }
   ],
