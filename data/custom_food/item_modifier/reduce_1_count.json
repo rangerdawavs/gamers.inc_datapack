@@ -1,0 +1,9 @@
+{
+    "function": "modify_contents",
+    "component": "bundle_contents",
+    "modifier": {
+        "function": "set_count",
+        "count": -1,
+        "add": true
+    }
+}
