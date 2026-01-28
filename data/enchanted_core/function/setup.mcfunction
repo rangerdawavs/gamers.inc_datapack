@@ -72,6 +72,16 @@ scoreboard objectives add core_sword_looting dummy
 scoreboard objectives add core_sword_knockback dummy
 scoreboard objectives add core_sword_fire_aspect dummy
 scoreboard objectives add core_sword_sweeping_edge dummy
+#spear
+scoreboard objectives add core_spear_unbreaking dummy
+scoreboard objectives add core_spear_mending dummy
+scoreboard objectives add core_spear_sharpness dummy
+scoreboard objectives add core_spear_smite dummy
+scoreboard objectives add core_spear_bane_of_arthropods dummy
+scoreboard objectives add core_spear_looting dummy
+scoreboard objectives add core_spear_knockback dummy
+scoreboard objectives add core_spear_fire_aspect dummy
+scoreboard objectives add core_spear_lunge dummy
 #final
 scoreboard objectives add core_temp_score dummy
 scoreboard objectives add absorb_enchantments trigger

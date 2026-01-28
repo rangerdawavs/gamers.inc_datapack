@@ -13,7 +13,7 @@
                                     {
                                         "items": "bundle",
                                         "components": {
-                                            "item_name": "Baking Pan"
+                                            "item_name": "Baking Tray"
                                         },
                                         "predicates": {
                                             "bundle_contents": {
@@ -21,13 +21,13 @@
                                                     "size": 3,
                                                     "contains": [
                                                         {
-                                                            "items": "#eggs"
+                                                            "items": "cocoa_beans"
                                                         },
                                                         {
                                                             "items": "sugar"
                                                         },
                                                         {
-                                                            "items": "pumpkin"
+                                                            "items": "wheat"
                                                         }
                                                     ]
                                                 }
@@ -54,9 +54,9 @@
                                     "items": {
                                         "contains": [
                                             {
-                                                "items": "pumpkin_pie",
+                                                "items": "cookie",
                                                 "count":{
-                                                    "max": 63,
+                                                    "max": 56,
                                                     "min": 1
                                                 }
                                             }

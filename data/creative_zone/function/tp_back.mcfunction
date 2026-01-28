@@ -1,1 +1,1 @@
-$tp $(x_cord) $(y_cord) $(z_cord)
+$execute in overworld run tp $(x_cord) $(y_cord) $(z_cord)

@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "custom_food:baking_pan_recipes/pumpkin_pie"
+        },
+        {
+            "condition": "reference",
+            "name": "custom_food:baking_tray_recipes/cookie"
+        }
+    ]
+}

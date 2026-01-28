@@ -1,0 +1,33 @@
+{
+    "type": "dialog_list",
+    "dialogs": [],
+    "title": "Crops and Foraging",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Vegetables and fruits can be aquired by either growing the corresponding crop, or by mining certaing natural blocks, like leaves, grass, and bushes\n\n"
+            },
+            {
+                "text": "The item dropped by a crop or vegetation block can depend on a variety of options. Most drops depend primarily on the biome where it's planted\n\n"
+            },
+            {
+                "text": "When transplanting a crop from one biome to another, there is a high chance that the new produce will be a slight varient of the original.\n"
+            },
+            {
+                "text": "For example, if you harvest potatoes in a plains biome, and then plant some of those in a jungle biome, you will harvest sweet potatos.\n\n"
+            },
+            {
+                "text": "The crops are organized based on the plant from which they drop."
+            }
+        ]
+    },
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "custom_food:tutorial_new_ingredients"
+        }
+    }
+}
