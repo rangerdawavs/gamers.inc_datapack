@@ -1,0 +1,31 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "mortar_and_pestle_used":{
+            "trigger":  "minecraft:impossible"
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Crush something with a mortar and pestle"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flower_pot",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The spice of life"
+    }
+  },
+  "requirements": [
+    [
+      "mortar_and_pestle_used"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

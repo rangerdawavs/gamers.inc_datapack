@@ -1,0 +1,30 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Enchanted Core - Enchanting",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "To enchant an item using the enchanted core book, place the item to enchant in the offhand, then place the enchanted core book in the mainhand, open it, and click the enchantment to apply.\n\n"
+            },
+            {
+                "text": "The cost to enchant an item is one essence of the corresponding type. The level of the resulting enchantment is dependant on the amount of that particular essence that the player posseses.\n"
+            },
+            {
+                "text": "For each level of the enchantment, three essence are needed. For example: if a player has 8 essence of axe-efficiency, and they use it to enchant an axe, they will get efficiency lvl 2, and they will consume 1 essence leaving them with 7 essence of axe-efficiency.\n\n"
+            }
+        ]
+    },
+    "external_title": "Enchanting",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchanted_core:tutorial"
+        }
+    }
+}

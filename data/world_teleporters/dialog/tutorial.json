@@ -1,0 +1,33 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Ancient Libraries",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Spread across the world one can find ruined ancient libraries. These temples served as the highway of the followers of the lightning god.\n\n"
+            },
+            {
+                "text": "When one prays at the central pool, a teleportation book appears. This book, when clicked while standing in any ancient library, will call upon the lightning god to transport the player to the library of origin of the book.\n\n"
+            },
+            {
+                "text": "The player is transported via lightning bolt, and depending on whether they are wearing an elytra or not, will place the player in the library, or high above it.\n\n"
+            },
+            {
+                "text": "While exploring the world one may stumble upon a small tent with a campfire. These rest places from previous adventurers may contain maps to the nearest ancient library, or other structures in relatively rare biomes.\n\n"
+            }
+        ]
+    },
+    "external_title": "Ancient Libraries",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

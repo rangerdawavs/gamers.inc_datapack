@@ -2,10 +2,11 @@
     "type": "crafting_shaped",
     "key": {
         "l": "lapis_lazuli",
-        "b": "writable_book"
+        "b": "writable_book",
+        "a": "amethyst_shard"
     },
     "pattern": [
-        "lll",
+        "lal",
         "lbl",
         "lll"
     ],

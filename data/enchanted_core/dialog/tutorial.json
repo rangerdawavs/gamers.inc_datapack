@@ -1,22 +1,29 @@
 {
     "type": "dialog_list",
     "dialogs": [
-        "custom_food:tutorial_new_ingredients"
+        "enchanted_core:tutorial_absorbing",
+        "enchanted_core:tutorial_enchanting"
     ],
-    "title": "Custom Food - Main",
+    "title": "Enchanted Core",
     "body": {
         "type": "plain_message",
         "width":400,
         "contents": [
             {
-                "text": "The custom food datapack adds a variety of cooking and meal options, as well as a bunch of new crops and meats\n\n"
+                "text": "The enchanted core datapack allows players to absorb and reuse enchantments found naturally on armor, tools and weapons\n\n"
             },
             {
-                "text": "The datapack is seperated in two main parts, the new food ingredients, and the cooking recipes"
+                "text": "To start players will want to craft an enchanted core book, this can be obtained by placing in a crafting table: a writable book in the center, 7 lapiz lazuli surrounding it, and a single amethyst shard above the book.\n\n"
+            },
+            {
+                "text": "This book has 2 main functions. First, it can absorb enchantments from most enchanted armors, weapons, or tools. The absorbed enchantment gets converted into essence that is stored in the player.\n\n"
+            },
+            {
+                "text": "Once you have aquired enough of the coresponding essence, the second function of the book allows you to enchant another item by spending a small amount of essence.\n\n"
             }
         ]
     },
-    "external_title": "Custom Food",
+    "external_title": "Enchanted Core",
     "exit_action": {
         "label": "back",
         "action": {

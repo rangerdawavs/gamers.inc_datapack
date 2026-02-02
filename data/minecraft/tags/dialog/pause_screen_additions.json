@@ -1,6 +1,10 @@
 {
     "values": [
         "creative_zone:tutorial",
-        "custom_food:tutorial"
+        "custom_food:tutorial",
+        "enchanted_core:tutorial",
+        "repair_overhaul:tutorial",
+        "spawn_tp:tutorial",
+        "world_teleporters:tutorial"
     ]
 }
