@@ -1,0 +1,2 @@
+execute unless score @s[tag=air_type] elemental_powers.air_type.dash_cooldown matches 0.. run scoreboard players set @s elemental_powers.air_type.dash_cooldown 0
+execute if score @s[tag=air_type] elemental_powers.air_type.dash_cooldown matches 1.. run scoreboard players remove @s elemental_powers.air_type.dash_cooldown 1

@@ -1,0 +1,66 @@
+{
+    "description": "air_dash",
+    "supported_items": "clock",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:air_type/dash_tick"
+                }
+            }
+        ],
+        "minecraft:post_piercing_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:air_type/dash"
+                },
+                "requirements": {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "elemental_powers.air_type.dash_cooldown": 0
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "apply_impulse",
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "coordinate_scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "magnitude": 1.5
+                },
+                "requirements": {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "elemental_powers.air_type.dash_cooldown": 100
+                    }
+                }
+            }
+        ]
+    }
+}

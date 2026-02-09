@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand elemental_powers:grass_type/remove_vine_glue

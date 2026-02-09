@@ -1,0 +1,2 @@
+execute as @e[distance=..10,type=item,nbt={Age:0s}] run data modify entity @s Item.components."minecraft:custom_name" set value "Tomatoes"
+advancement revoke @s only custom_food:sweet_berry_farmland_clicked

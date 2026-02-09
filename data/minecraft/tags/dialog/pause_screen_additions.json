@@ -5,6 +5,7 @@
         "enchanted_core:tutorial",
         "repair_overhaul:tutorial",
         "spawn_tp:tutorial",
-        "world_teleporters:tutorial"
+        "world_teleporters:tutorial",
+        "pegasus:tutorial"
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "attribute": "gravity",
+            "amount": -0.16,
+            "slot": "mainhand",
+            "id": "elemental_powers:grass_type/vine_glue",
+            "operation": "add_value"
+        },
+        {
+            "attribute": "block_interaction_range",
+            "amount": 32,
+            "id": "elemental_powers:grass_type/vine",
+            "operation": "add_value",
+            "slot": "mainhand"
+        }
+    ]
+}

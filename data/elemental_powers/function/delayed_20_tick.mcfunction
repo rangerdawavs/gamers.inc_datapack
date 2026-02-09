@@ -10,4 +10,6 @@ execute as @a if score @s power2_delay matches 1.. run scoreboard players remove
 execute as @a if score @s power3_delay matches 1 run tellraw @s "power 3 recharged"
 execute as @a if score @s power3_delay matches 1.. run scoreboard players remove @s power3_delay 1
 execute as @a[tag=water_type] if score @s elemental_level matches 2.. at @s if block ~ ~ ~ water run effect give @s regeneration 5 1 true
+#check for air platforms
+execute as @e[type=marker,name="elemental_powers/air_platform"] at @s unless entity @a[tag=air_type,distance=..10] align xyz run function elemental_powers:air_type/air_platform_check
 schedule function elemental_powers:delayed_20_tick 20t

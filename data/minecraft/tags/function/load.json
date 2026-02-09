@@ -12,6 +12,7 @@
 		"enchanted_core:setup",
 		"elemental_reactions:setup",
 		"ui:init",
-		"custom_food:load"
+		"custom_food:load",
+		"#load:_private/load"
 	]
 }
