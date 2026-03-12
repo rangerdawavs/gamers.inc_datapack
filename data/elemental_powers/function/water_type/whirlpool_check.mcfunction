@@ -1,0 +1,5 @@
+execute as @e[type=marker,name=elemental_powers.water_type.whirlpool_center] at @s run summon area_effect_cloud ~ ~ ~ {Radius:6,Duration:10,WaitTime:0,custom_particle:{type:rain}}
+execute as @e[type=marker,name=elemental_powers.water_type.whirlpool_center] at @s run summon armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,equipment:{feet:{id:"leather_boots",components:{enchantments:{"elemental_powers:whirlpool_pulse":1}}}}}
+execute as @e[type=marker,name=elemental_powers.water_type.whirlpool_center] at @s run scoreboard players remove @s elemental_powers.water_type.whirlpool_count 1
+execute as @e[type=marker,name=elemental_powers.water_type.whirlpool_center] at @s if score @s elemental_powers.water_type.whirlpool_count matches ..0 run kill @s
+execute if entity @e[type=marker,name=elemental_powers.water_type.whirlpool_center] run schedule function elemental_powers:water_type/whirlpool_check 10

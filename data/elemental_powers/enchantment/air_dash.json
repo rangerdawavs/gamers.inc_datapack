@@ -57,7 +57,7 @@
                     "condition": "entity_scores",
                     "entity": "this",
                     "scores": {
-                        "elemental_powers.air_type.dash_cooldown": 100
+                        "elemental_powers.air_type.dash_cooldown": 60
                     }
                 }
             }

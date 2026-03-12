@@ -18,7 +18,7 @@ $execute unless block ~ ~ ~ $(ignored_blocks) run function bs.raycast:check/bloc
 execute if score #raycast.max_distance bs.data matches 1.. if score $raycast.distance bs.lambda <= #raycast.lx bs.data if score $raycast.distance bs.lambda <= #raycast.ly bs.data if score $raycast.distance bs.lambda <= #raycast.lz bs.data run function bs.raycast:collide/any
 
 #testing info{
-particle composter ~ ~ ~ 0 0 0 0.01 0
+particle tinted_leaves{color:[0,1,0,0]} ~ ~0.5 ~ 0 0 0 0.01 0
 #}end of testing info
 
 # advance on the grid by the shortest length

@@ -1,0 +1,7 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "elemental_powers:air_bow": 1
+    },
+    "add": true
+}

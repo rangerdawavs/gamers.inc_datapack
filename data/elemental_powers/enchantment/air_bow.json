@@ -1,0 +1,48 @@
+{
+    "description": "air_bow",
+    "supported_items": "bow",
+    "weight": 1,
+    "max_level": 3,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:air_type/swap_projectile"
+                },
+                "requirements": {
+                    "condition": "value_check",
+                    "value": {
+                        "type": "enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 1,
+                            "per_level_above_first": 1
+                        }
+                    },
+                    "range": 2
+                }
+            }
+        ],
+        "minecraft:post_piercing_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:air_type/switch_bow_enchant"
+                }
+            }
+        ]
+    }
+}

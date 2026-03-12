@@ -1,0 +1,148 @@
+{
+    "values": [
+        {
+            "id": "#aquatic"
+        },
+        {
+            "id": "#arthropod"
+        },
+        {
+            "id": "#minecraft:illager"
+        },
+        {
+            "id": "#skeletons"
+        },
+        {
+            "id": "#zombies"
+        },
+        {
+            "id": "armadillo"
+        },
+        {
+            "id": "camel"
+        },
+        {
+            "id": "cat"
+        },
+        {
+            "id": "chicken"
+        },
+        {
+            "id": "copper_golem"
+        },
+        {
+            "id": "cow"
+        },
+        {
+            "id": "donkey"
+        },
+        {
+            "id": "mooshroom"
+        },
+        {
+            "id": "mule"
+        },
+        {
+            "id": "ocelot"
+        },
+        {
+            "id": "pig"
+        },
+        {
+            "id": "rabbit"
+        },
+        {
+            "id": "sheep"
+        },
+        {
+            "id": "snow_golem"
+        },
+        {
+            "id": "strider"
+        },
+        {
+            "id": "villager"
+        },
+        {
+            "id": "wandering_trader"
+        },
+        {
+            "id": "camel_husk"
+        },
+        {
+            "id": "skeleton_horse"
+        },
+        {
+            "id": "zombie_horse"
+        },
+        {
+            "id": "cave_spider"
+        },
+        {
+            "id": "fox"
+        },
+        {
+            "id": "goat"
+        },
+        {
+            "id": "iron_golem"
+        },
+        {
+            "id": "llama"
+        },
+        {
+            "id": "panda"
+        },
+        {
+            "id": "piglin"
+        },
+        {
+            "id": "polar_bear"
+        },
+        {
+            "id": "spider"
+        },
+        {
+            "id": "trader_llama"
+        },
+        {
+            "id": "wolf"
+        },
+        {
+            "id": "zombified_piglin"
+        },
+        {
+            "id": "creaking"
+        },
+        {
+            "id": "creeper"
+        },
+        {
+            "id": "endermite"
+        },
+        {
+            "id": "hoglin"
+        },
+        {
+            "id": "piglin_brute"
+        },
+        {
+            "id": "ravager"
+        },
+        {
+            "id": "silverfish"
+        },
+        {
+            "id": "warden"
+        },
+        {
+            "id": "witch"
+        },
+        {
+            "id": "zoglin"
+        },
+        {
+            "id": "giant"
+        }
+    ]
+}
