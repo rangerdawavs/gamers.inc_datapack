@@ -1,0 +1,91 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "furnace",
+                    "predicates": {
+                        "bundle_contents": {
+                            "items": {
+                                "contains": [
+                                    {
+                                        "items": "bundle",
+                                        "components": {
+                                            "item_name": "Baking Tray"
+                                        },
+                                        "predicates": {
+                                            "bundle_contents": {
+                                                "items": {
+                                                    "size": 3,
+                                                    "contains": [
+                                                        {
+                                                            "items": "cocoa_beans"
+                                                        },
+                                                        {
+                                                            "items": "sugar"
+                                                        },
+                                                        {
+                                                            "items": "wheat"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "furnace",
+                            "predicates": {
+                                "container": {
+                                    "items": {
+                                        "contains": [
+                                            {
+                                                "items": "cookie",
+                                                "count":{
+                                                    "max": 56,
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "furnace",
+                                "nbt": {
+                                    "Items": [
+                                        {
+                                            "Slot": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "values": [
+        {
+            "id": "#leaves"
+        },
+        {
+            "id": "vine"
+        },
+        {
+            "id": "cave_vines"
+        },
+        {
+            "id": "cave_vines_plant"
+        },
+        {
+            "id": "glow_lichen"
+        },
+        {
+            "id": "nether_wart_block"
+        },
+        {
+            "id": "warped_wart_block"
+        }
+    ]
+}

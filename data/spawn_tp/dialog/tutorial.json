@@ -1,0 +1,38 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Spawn tp",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Spawn tp allows players to teleport back to the world spawn at any given moment.\n\n"
+            },
+            {
+                "text": "To activate it, type: "
+            },
+            {
+                "text": "/trigger spawn_tp",
+                "click_event": {
+                    "action": "copy_to_clipboard",
+                    "value": "/trigger spawn_tp"
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "click to copy to clipboard"
+                }
+            }
+        ]
+    },
+    "external_title": "Spawn tp",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

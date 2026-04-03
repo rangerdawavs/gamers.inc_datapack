@@ -1,0 +1,12 @@
+{
+    "function": "set_attributes",
+    "modifiers": [
+        {
+            "attribute": "block_interaction_range",
+            "amount": 32,
+            "id": "elemental_powers:grass_type/vine",
+            "operation": "add_value",
+            "slot": "mainhand"
+        }
+    ]
+}

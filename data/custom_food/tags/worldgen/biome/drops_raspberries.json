@@ -1,0 +1,25 @@
+{
+    "values": [
+        {
+            "id": "jungle"
+        },
+        {
+            "id": "sparse_jungle"
+        },
+        {
+            "id": "bamboo_jungle"
+        },
+        {
+            "id": "terraltih:valley_clearing",
+            "required": false
+        },
+        {
+            "id": "terraltih:shield_clearing",
+            "required": false
+        },
+        {
+            "id": "terraltih:sakura_valley",
+            "required": false
+        }
+    ]
+}

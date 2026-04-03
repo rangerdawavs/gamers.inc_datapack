@@ -1,0 +1,36 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Pegasus",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Pegasus is a system that allows fast travel for a player's rideable mobs\n\n"
+            },
+            {
+                "text": "To start, craft a pegasus feather by alternating feathers and apples in a checkerdboard pattern in a crafting table.\n\n"
+            },
+            {
+                "text": "while riding a rideable mob, rightclick while holding the feather. This will link that animal to that particular feather.\n"
+            },
+            {
+                "text": "Once that animal has been linked, it can be summoned to your location, or sent back to it's stable by right clicking the feather.\n\n"
+            },
+            {
+                "text": "Care must be taken not to lose the mob. When summoning mobs with the feather, these are taken from the stable, if a player leaves there ride somewhere without sending them back to the stable, the feather won't be able to summon them.\n\n"
+            }
+        ]
+    },
+    "external_title": "Pegasus",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

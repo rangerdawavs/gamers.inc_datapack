@@ -1,24 +1,47 @@
 {
-    "condition": "any_of",
+    "condition": "all_of",
     "terms": [
         {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "slots": {
-                    "weapon.mainhand": {
-                        "items": "firework_rocket"
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "weapon.mainhand": {
+                                "items": "firework_rocket"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "weapon.offhand": {
+                                "items": "firework_rocket"
+                            }
+                        }
                     }
                 }
-            }
+            ]
         },
         {
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-                "slots": {
-                    "weapon.offhand": {
-                        "items": "firework_rocket"
+                "equipment": {
+                    "chest": {
+                        "predicates": {
+                            "enchantments": [
+                                {
+                                    "enchantments": "elemental_powers:glide",
+                                    "levels": 1
+                                }
+                            ]
+                        }
                     }
                 }
             }

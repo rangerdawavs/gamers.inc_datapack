@@ -1,0 +1,37 @@
+{
+    "values": [
+        {
+            "id": "snowy_plains"
+        },
+        {
+            "id": "ice_spikes"
+        },
+        {
+            "id": "frozen_peaks"
+        },
+        {
+            "id": "terralith:cold_shrubland",
+            "required": false
+        },
+        {
+            "id": "terralith:frozen_cliffs",
+            "required": false
+        },
+        {
+            "id": "terralith:glacial_chasm",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_badlands",
+            "required": false
+        },
+        {
+            "id": "terralith:wintry_lowlands",
+            "required": false
+        },
+        {
+            "id": "terralith:gravel_desert",
+            "required": false
+        }
+    ]
+}

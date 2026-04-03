@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "N":"iron_nugget"
+    },
+    "pattern": [
+        "N N",
+        "NNN"
+    ],
+    "result": {
+        "id": "bundle",
+        "components": {
+            "enchantments": {
+                "custom_food:baking_pan": 1
+            },
+            "item_name": "Baking Pan",
+            "item_model": "heavy_weighted_pressure_plate"
+        }
+    }
+}

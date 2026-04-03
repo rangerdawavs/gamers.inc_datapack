@@ -1,0 +1,27 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        "custom_food:tutorial_new_ingredients"
+    ],
+    "title": "Custom Food - Main",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "The custom food datapack adds a variety of cooking and meal options, as well as a bunch of new crops and meats\n\n"
+            },
+            {
+                "text": "The datapack is seperated in two main parts, the new food ingredients, and the cooking recipes"
+            }
+        ]
+    },
+    "external_title": "Custom Food",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

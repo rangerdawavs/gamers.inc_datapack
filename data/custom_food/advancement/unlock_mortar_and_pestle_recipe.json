@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_granite": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:granite_slab"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_granite"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "custom_food:mortar_and_pestle"
+        ]
+    }
+}

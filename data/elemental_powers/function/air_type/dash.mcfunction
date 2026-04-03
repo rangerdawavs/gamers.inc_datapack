@@ -1,0 +1,1 @@
+execute unless predicate elemental_powers:air_dash_requirements run scoreboard players set @s[tag=air_type] elemental_powers.air_type.dash_cooldown 60

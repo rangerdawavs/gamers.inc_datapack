@@ -1,0 +1,36 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Enchanted Core - Absorbing",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "To absorb an item's enchantments, start by placing the item to absorb in the offhand. Then, hold the enchanted core book in the mainhand, open it, and press the \"absorb enchantment\" text on the first page.\n\n"
+            },
+            {
+                "text": "Each level of the absorbed enchantment grants 1 essence. Essence comes in a variety of different types, they are unique to a particular tool-enchantment combination.\n"
+            },
+            {
+                "text": "For example: when absorbing the enchantments of an iron axe with unbraking 2 and efficiency 3, the player will obtain 2 essence of axe-unbreaking, and 3 essence of axe-efficiency.\n\n"
+            },
+            {
+                "text": "Essence is saved per player, and is kept after death or if the original book that was used is lost. To check how much of each essence a player has, they can use the enchanted core book, and check the corresponding tool-enchantment combination.\n\n"
+            },
+            {
+                "text": "Curses and non vanilla enchantments can't be absorbed, and will dissapear from the item if you try to absorb them. Items that have been enchanted with the enchanted core book are marked and can't have there enchantments absorbed.\n\n"
+            }
+        ]
+    },
+    "external_title": "Absorbing",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchanted_core:tutorial"
+        }
+    }
+}

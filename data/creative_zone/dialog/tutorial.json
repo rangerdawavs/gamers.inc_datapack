@@ -1,0 +1,42 @@
+{
+    "type": "dialog_list",
+    "dialogs": [],
+    "title": "Creative Zone - Main",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "The creative zone is a datapack that adds a new dimension to the world, one where players are in creative mode and able to test any project \n\n"
+            },
+            {
+                "text": "To enter it one must first find a creative portal, this structure looks like a portal made of rainbow blocks, with stairs leading up to it. It can be found in basically all overworld biomes.\n\n"
+            },
+            {
+                "text": "To enter the portal, right click while having a completly clear inventory, including any armor\n\n"
+            },
+            {
+                "text": "To leave the dimension, type in chat the following command: "
+            },
+            {
+                "text": "/trigger creatent",
+                "click_event": {
+                    "action": "copy_to_clipboard",
+                    "value": "/trigger creatent"
+                },
+                "hover_event": {
+                    "action": "show_text",
+                    "value": "click to copy to clipboard"
+                }
+            }
+        ]
+    },
+    "external_title": "Creative Zone",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

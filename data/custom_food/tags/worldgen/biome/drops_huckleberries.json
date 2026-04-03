@@ -1,0 +1,44 @@
+{
+    "values": [
+        {
+            "id": "windswept_hills"
+        },
+        {
+            "id": "windswept_gravelly_hills"
+        },
+        {
+            "id": "windswept_forest"
+        },
+        {
+            "id": "cherry_grove"
+        },
+        {
+            "id": "terralith:highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:emerald_peaks",
+            "required": false
+        },
+        {
+            "id": "terralith:scarlet_mountains",
+            "required": false
+        },
+        {
+            "id": "terralith:haze_mountain",
+            "required": false
+        },
+        {
+            "id": "terralith:yellowstone",
+            "required": false
+        }
+    ]
+}

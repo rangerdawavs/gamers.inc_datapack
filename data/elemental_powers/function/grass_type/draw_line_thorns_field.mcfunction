@@ -1,0 +1,2 @@
+particle tinted_leaves{color:[0,1,0,0]} ~ ~ ~ 0 0 0 0.01 0
+execute positioned ~ ~-1 ~ unless entity @e[type=#elemental_powers:grass_thorns_can_hold,distance=..1.1] positioned ~ ~1 ~ positioned ^ ^ ^0.1 run function elemental_powers:grass_type/draw_line_thorns_field

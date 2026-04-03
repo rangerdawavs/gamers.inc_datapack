@@ -1,0 +1,27 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        "custom_food:tutorial_crops_and_foraging"
+    ],
+    "title": "New Ingredients",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "This datapack adds a variety of new foods. All the crops and meats needed to craft these new meals are farmable.\n\n"
+            },
+            {
+                "text": "The main sources of ingredients for cooking can be grouped in three main categorie: crops and foraging, meat and animal products, and fishing"
+            }
+        ]
+    },
+    "external_title": "New Ingredients",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "custom_food:tutorial"
+        }
+    }
+}

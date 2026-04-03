@@ -1,0 +1,91 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "furnace",
+                    "predicates": {
+                        "bundle_contents": {
+                            "items": {
+                                "contains": [
+                                    {
+                                        "items": "bundle",
+                                        "components": {
+                                            "item_name": "Baking Pan"
+                                        },
+                                        "predicates": {
+                                            "bundle_contents": {
+                                                "items": {
+                                                    "size": 3,
+                                                    "contains": [
+                                                        {
+                                                            "items": "#eggs"
+                                                        },
+                                                        {
+                                                            "items": "sugar"
+                                                        },
+                                                        {
+                                                            "items": "pumpkin"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "furnace",
+                            "predicates": {
+                                "container": {
+                                    "items": {
+                                        "contains": [
+                                            {
+                                                "items": "pumpkin_pie",
+                                                "count":{
+                                                    "max": 63,
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "furnace",
+                                "nbt": {
+                                    "Items": [
+                                        {
+                                            "Slot": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

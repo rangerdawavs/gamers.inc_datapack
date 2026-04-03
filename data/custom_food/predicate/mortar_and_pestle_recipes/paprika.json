@@ -1,0 +1,31 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": "bundle",
+                "components": {
+                    "item_name": "Mortar and Pestle"
+                },
+                "predicates": {
+                    "bundle_contents": {
+                        "items": {
+                            "size": 1,
+                            "contains": [
+                                {
+                                    "components": {
+                                        "item_name": "Dehydrated Bell Peppers"
+                                    },
+                                    "count": {
+                                        "min": 3
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

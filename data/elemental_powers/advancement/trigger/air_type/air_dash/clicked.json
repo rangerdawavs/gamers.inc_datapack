@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data":{"elemental_powers":{"air_type":{"updraft":true}}}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "elemental_powers:air_type/updraft_clicked"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Repair Overhaul",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Repair Overhaul allows players to repair there items, whether enchanted or not, using a smithing table.\n\n"
+            },
+            {
+                "text": "The recipe for most tools and armors is one of the base material for the item. Bows and fishing poles require a stick and a string, while elytras require phantom membrane to repair.\n\n"
+            }
+        ]
+    },
+    "external_title": "Repair Overhaul",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:custom_options"
+        }
+    }
+}

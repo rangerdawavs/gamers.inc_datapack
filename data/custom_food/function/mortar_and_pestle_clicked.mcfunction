@@ -1,0 +1,1 @@
+execute if predicate custom_food:mortar_and_pestle_recipes/paprika run function custom_food:mortar_and_pestle_recipes/paprika/paprika

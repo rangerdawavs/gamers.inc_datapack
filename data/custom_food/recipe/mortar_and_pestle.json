@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    "key": {
+        "S":"stick",
+        "G":"granite_slab"
+    },
+    "pattern": [
+        " S ",
+        "G G",
+        "GGG"
+    ],
+    "result": {
+        "id": "bundle",
+        "components": {
+            "item_name": "Mortar and Pestle",
+            "item_model": "flower_pot",
+            "piercing_weapon": {
+                "deals_knockback": false,
+                "dismounts": false,
+                "sound": "block.leaf_litter.place"
+            },
+            "enchantments": {
+                "custom_food:mortar_and_pestle": 1
+            }
+        },
+        "count": 1
+    }
+}

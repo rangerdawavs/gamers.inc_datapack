@@ -1,0 +1,225 @@
+{
+    "description": "vine",
+    "supported_items": "clock",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:grass_type/vine_tick"
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:grass_type/vine_glue_activate"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "input": {
+                                        "sneak": true
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "any_of",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#elemental_powers:vine_can_target"
+                                        }
+                                    },
+                                    "offsetY": 2
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#elemental_powers:vine_can_target"
+                                        }
+                                    },
+                                    "offsetY": 3
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "block": {
+                                            "blocks": "#elemental_powers:vine_can_target"
+                                        }
+                                    },
+                                    "offsetY": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:grass_type/vine_glue_deactivate"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "player",
+                            "input": {
+                                "sneak": false
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:grass_type/vine_activated"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#elemental_powers:vine_can_target"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "elemental_powers.grass_type.vine_cooldown": 0
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "apply_impulse",
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "coordinate_scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "magnitude": 1.5
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#elemental_powers:vine_can_target"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "input": {
+                                        "jump": false
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "elemental_powers.grass_type.vine_cooldown": 20
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "apply_impulse",
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "coordinate_scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "magnitude": 2.0
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#elemental_powers:vine_can_target"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "input": {
+                                        "jump": true
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "elemental_powers.grass_type.vine_cooldown": 20
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "values": [
+        {
+            "id": "taiga"
+        },
+        {
+            "id": "old_growth_birch_forest"
+        },
+        {
+            "id": "snowy_taiga"
+        },
+        {
+            "id": "grove"
+        },
+        {
+            "id": "terralith:birch_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_taiga",
+            "required": false
+        },
+        {
+            "id": "terralith:siberian_grove",
+            "required": false
+        },
+        {
+            "id": "terralith:shield",
+            "required": false
+        },
+        {
+            "id": "terralith:snowy_shield",
+            "required": false
+        },
+        {
+            "id": "terralith:skylands_winter",
+            "required": false
+        }
+    ]
+}

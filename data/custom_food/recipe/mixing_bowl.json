@@ -1,0 +1,28 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    "key": {
+        "S":"stick",
+        "B":"bowl"
+    },
+    "pattern": [
+        "S",
+        "B"
+    ],
+    "result": {
+        "id": "bundle",
+        "components": {
+            "item_name": "Mixing Bowl",
+            "item_model": "bowl",
+            "piercing_weapon": {
+                "deals_knockback": false,
+                "dismounts": false,
+                "sound": "entity.breeze.charge"
+            },
+            "enchantments": {
+                "custom_food:mixing_bowl": 1
+            }
+        },
+        "count": 1
+    }
+}

@@ -2,25 +2,45 @@
     "description": "glide",
     "supported_items": "#minecraft:chest_armor",
     "weight": 1,
-    "max_level": 1,
+    "max_level": 3,
     "min_cost": {
         "base": 100,
         "per_level_above_first": 0
     },
     "max_cost": {
-        "base":100,
+        "base": 100,
         "per_level_above_first": 0
     },
     "anvil_cost": 1,
     "slots": [
         "chest"
     ],
-    "effects":{
-        "minecraft:location_changed":[
+    "effects": {
+        "minecraft:location_changed": [
             {
-                "effect":{
-                    "type":"minecraft:run_function",
-                    "function":"elemental_powers:set_gliding_air_type"
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:set_gliding_air_type"
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:air_type/float"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific": {
+                            "type": "player",
+                            "input": {
+                                "sneak": true
+                            }
+                        }
+                    }
                 }
             }
         ]
