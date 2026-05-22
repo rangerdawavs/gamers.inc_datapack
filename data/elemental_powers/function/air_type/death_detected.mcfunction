@@ -1,0 +1,2 @@
+item replace entity @s armor.body with clock[glider={},enchantments={"elemental_powers:glide":3,binding_curse:1,vanishing_curse:1},equippable={slot:body}]
+scoreboard players set @s elemental_powers.air_type.death_counter 0

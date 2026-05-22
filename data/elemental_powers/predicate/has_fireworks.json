@@ -33,7 +33,7 @@
             "entity": "this",
             "predicate": {
                 "equipment": {
-                    "chest": {
+                    "body": {
                         "predicates": {
                             "enchantments": [
                                 {

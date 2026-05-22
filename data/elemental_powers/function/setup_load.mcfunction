@@ -16,6 +16,7 @@ scoreboard objectives add elemental_powers.grass_type.vine_cooldown dummy
 scoreboard objectives add elemental_powers.air_type.dash_cooldown dummy
 scoreboard objectives add elemental_powers.air_type.updraft_cooldown dummy
 scoreboard objectives add elemental_powers.water_type.whirlpool_count dummy
+scoreboard objectives add elemental_powers.air_type.death_counter deathCount
 function elemental_powers:delayed_10_tick
 function elemental_powers:delayed_20_tick
 function elemental_powers:delayed_1_minute_tick

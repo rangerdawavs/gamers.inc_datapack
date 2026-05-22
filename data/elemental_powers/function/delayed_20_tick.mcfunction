@@ -12,4 +12,6 @@ execute as @a if score @s power3_delay matches 1.. run scoreboard players remove
 execute as @a[tag=water_type] if score @s elemental_level matches 2.. at @s if block ~ ~ ~ water run effect give @s regeneration 5 1 true
 #check for air platforms
 execute as @e[type=marker,name="elemental_powers/air_platform"] at @s unless entity @a[tag=air_type,distance=..10] align xyz run function elemental_powers:air_type/air_platform_check
+#check death for air types
+execute as @e[type=player,tag=air_type] if score @s elemental_powers.air_type.death_counter matches 1.. run function elemental_powers:air_type/death_detected
 schedule function elemental_powers:delayed_20_tick 20t

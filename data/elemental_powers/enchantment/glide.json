@@ -1,6 +1,6 @@
 {
     "description": "glide",
-    "supported_items": "#minecraft:chest_armor",
+    "supported_items": "minecraft:clock",
     "weight": 1,
     "max_level": 3,
     "min_cost": {
@@ -13,7 +13,7 @@
     },
     "anvil_cost": 1,
     "slots": [
-        "chest"
+        "body"
     ],
     "effects": {
         "minecraft:location_changed": [
