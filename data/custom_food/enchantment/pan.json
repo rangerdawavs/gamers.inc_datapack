@@ -1,0 +1,41 @@
+{
+    "description": "Pan",
+    "supported_items": "minecraft:bundle",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "custom_food:stove_top_on"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "furnace"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

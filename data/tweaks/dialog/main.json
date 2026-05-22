@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Gamers.inc",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Datapack for the gamers.inc server.\nContains multiple modules each with different and mostly seperate functionality",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "v1.26.1\nBy Lolaso6809",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": "Wiki",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "tweaks:wiki"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

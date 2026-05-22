@@ -36,7 +36,7 @@
         "label": "back",
         "action": {
             "type": "show_dialog",
-            "dialog": "minecraft:custom_options"
+            "dialog": "tweaks:wiki"
         }
     }
 }

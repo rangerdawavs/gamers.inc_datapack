@@ -1,0 +1,63 @@
+{
+    "title": "Wiki",
+    "external_title": "Wiki",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "tweaks:main"
+        }
+    },
+    "type": "multi_action",
+    "actions": [
+        {
+            "label":"Creative Zone",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "creative_zone:tutorial"
+            }
+        },
+        {
+            "label":"Custom Food",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "custom_food:tutorial"
+            }
+        },
+        {
+            "label":"Enchanted Core",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "enchanted_core:tutorial"
+            }
+        },
+        {
+            "label":"Repair Overhaul",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "repair_overhaul:tutorial"
+            }
+        },
+        {
+            "label":"Spawn Tp",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "spawn_tp:tutorial"
+            }
+        },
+        {
+            "label":"Ancient Libraries",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "world_teleporters:tutorial"
+            }
+        },
+        {
+            "label": "Pegasus",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "pegasus:tutorial"
+            }
+        }
+    ]
+}
