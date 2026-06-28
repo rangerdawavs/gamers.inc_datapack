@@ -1,0 +1,2 @@
+tag @s add elemental_powers_grass_vine_pulling
+execute at @s anchored eyes run function #bs.raycast:run {with:{max_distance:32,entities:true,on_targeted_entity:"function elemental_powers:grass_type/vine_pull_target"}}

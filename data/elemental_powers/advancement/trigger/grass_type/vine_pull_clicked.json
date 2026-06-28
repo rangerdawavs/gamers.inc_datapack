@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data":{"elemental_powers":{"grass_type":{"vine_pull":true}}}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "elemental_powers:grass_type/vine_pull_clicked"
+    }
+}
