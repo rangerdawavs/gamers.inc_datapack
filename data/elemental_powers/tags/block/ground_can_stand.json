@@ -1,0 +1,19 @@
+{
+    "values": [
+        {
+            "id": "#air"
+        },
+        {
+            "id": "water"
+        },
+        {
+            "id": "#flowers"
+        },
+        {
+            "id": "#minecraft:edible_for_sheep"
+        },
+        {
+            "id": "#can_glide_through"
+        }
+    ]
+}

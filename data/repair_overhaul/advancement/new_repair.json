@@ -1,0 +1,34 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "recipe used":{
+            "trigger":  "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "repair_overhaul:repair_bow"
+            }
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Repair an item on a smithing table"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smithing_table",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "New Repairs"
+    }
+  },
+  "requirements": [
+    [
+      "recipe used"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,1 @@
+$function elemental_powers:ground_type/return_safety with storage elemental_powers:data last_tp.$(UUID)

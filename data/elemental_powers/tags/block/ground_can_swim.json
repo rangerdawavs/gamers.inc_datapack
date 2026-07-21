@@ -1,0 +1,88 @@
+{
+    "values": [
+        {
+            "id": "#minecraft:base_stone_overworld"
+        },
+        {
+            "id": "#minecraft:copper_ores"
+        },
+        {
+            "id": "#minecraft:iron_ores"
+        },
+        {
+            "id": "#minecraft:sand"
+        },
+        {
+            "id": "#minecraft:snow"
+        },
+        {
+            "id": "#minecraft:substrate_overworld"
+        },
+        {
+            "id": "#minecraft:terracotta"
+        },
+        {
+            "id": "minecraft:calcite"
+        },
+        {
+            "id": "minecraft:cinnabar",
+            "required": false
+        },
+        {
+            "id": "minecraft:gravel"
+        },
+        {
+            "id": "minecraft:potent_sulfur",
+            "required": false
+        },
+        {
+            "id": "minecraft:raw_copper_block"
+        },
+        {
+            "id": "minecraft:raw_iron_block"
+        },
+        {
+            "id": "minecraft:red_sandstone"
+        },
+        {
+            "id": "minecraft:sandstone"
+        },
+        {
+            "id": "minecraft:sulfur",
+            "required": false
+        },
+        {
+            "id": "minecraft:suspicious_gravel"
+        },
+        {
+            "id": "#gold_ores"
+        },
+        {
+            "id": "#redstone_ores"
+        },
+        {
+            "id": "#lapis_ores"
+        },
+        {
+            "id": "#emerald_ores"
+        },
+        {
+            "id": "#diamond_ores"
+        },
+        {
+            "id": "coal_block"
+        },
+        {
+            "id": "bone_block"
+        },
+        {
+            "id": "#nether_carver_replaceables"
+        },
+        {
+            "id": "nether_quartz_ore"
+        },
+        {
+            "id": "clay"
+        }
+    ]
+}

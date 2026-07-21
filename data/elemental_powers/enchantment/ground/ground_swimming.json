@@ -1,0 +1,53 @@
+{
+    "description": "ground swimming",
+    "supported_items": "minecraft:clock",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "elemental_powers:ground_type/enter_ground_swimming_macro"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific": {
+                                    "type": "player",
+                                    "input": {
+                                        "sneak": true
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#elemental_powers:ground_can_swim"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
