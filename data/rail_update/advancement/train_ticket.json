@@ -1,0 +1,41 @@
+{
+  "parent":"spawn_tp:root",  
+  "criteria": {
+        "crafted_feather":{
+            "trigger":  "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "item_name": "Train Ticket"
+                        },
+                        "items": "bundle"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text":"Craft a Train Ticket"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:paper",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Choo Choo mf"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_feather"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

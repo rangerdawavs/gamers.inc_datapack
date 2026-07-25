@@ -1,0 +1,36 @@
+{
+    "description": "train ticket",
+    "supported_items": "#bundles",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "rail_update:junction_detected"
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "barrel"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "#bundles",
+        "paper"
+    ],
+    "result": {
+        "id": "bundle",
+        "components": {
+            "enchantments": {
+                "rail_update:train_ticket": 1
+            },
+            "item_name": "Train Ticket",
+            "item_model": "paper"
+        }
+    }
+}

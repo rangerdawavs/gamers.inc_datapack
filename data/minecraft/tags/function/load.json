@@ -13,6 +13,7 @@
 		"elemental_reactions:setup",
 		"ui:init",
 		"custom_food:load",
-		"#load:_private/load"
+		"#load:_private/load",
+		"rail_update:load"
 	]
 }

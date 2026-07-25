@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_paper":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": "paper"}]
+            }
+        },
+        "has_bundle":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": "#bundles"}]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_paper",
+            "has_bundle"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "rail_update:train_ticket"
+        ]
+    }
+}

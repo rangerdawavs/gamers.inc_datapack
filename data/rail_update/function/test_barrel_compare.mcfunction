@@ -1,0 +1,1 @@
+return run data modify storage rail_update:data data.a set from storage rail_update:data data.b
