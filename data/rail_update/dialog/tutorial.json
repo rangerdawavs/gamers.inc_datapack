@@ -1,0 +1,39 @@
+{
+    "type": "dialog_list",
+    "dialogs": [
+        
+    ],
+    "title": "Train Ticket",
+    "body": {
+        "type": "plain_message",
+        "width":400,
+        "contents": [
+            {
+                "text": "Train ticket is a item that allows redstone to react depending on which item a player is holding\n\n"
+            },
+            {
+                "text": "To start, craft a train ticket by combining paper and a bundle\n\n"
+            },
+            {
+                "text": "for the detection system, place from top to bottom, a rail, a barrel, and a copper bulb\n\n"
+            },
+            {
+                "text": "Passing over the rail on a minecart while holding the train ticket in the main hand activates the detection. \n\n"
+            },
+            {
+                "text": "The system looks for any item that occurs both in the barrel and the train ticket. If it finds at leat one it activates the bulb.\n\n"
+            },
+            {
+                "text": "If it doesn't detect any item that occurs in both locations then the bulb switches off.\n\n"
+            }
+        ]
+    },
+    "external_title": "Train Ticket",
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "tweaks:wiki"
+        }
+    }
+}

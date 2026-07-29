@@ -58,6 +58,13 @@
                 "type": "show_dialog",
                 "dialog": "pegasus:tutorial"
             }
+        },
+        {
+            "label": "Train Ticket",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "rail_update:tutorial"
+            }
         }
     ]
 }
