@@ -1,0 +1,17 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":2}, "model": "item/elemental_powers_floaty_boots"},
+		{"predicate": {"custom_model_data":3}, "model": "item/elemental_powers_scan"},
+		{"predicate": {"custom_model_data":4}, "model": "item/elemental_powers_shockwave"},
+		{"predicate": {"custom_model_data":5}, "model": "item/elemental_powers_vine"},
+		{"predicate": {"custom_model_data":6}, "model": "item/elemental_powers_superspeed"},
+		{"predicate": {"custom_model_data":7}, "model": "item/elemental_powers_fireball"},
+		{"predicate": {"custom_model_data":8}, "model": "item/elemental_powers_lightningstorm_strike"},
+		{"predicate": {"custom_model_data":9}, "model": "item/elemental_powers_dolphin_grace"}
+	]
+}

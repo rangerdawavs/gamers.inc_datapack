@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "gamers_inc",
+    "version": "alpha-1.6.0",
+    "name": "Gamers.inc",
+    "description": "Vanilla+ datapack that adds and reworks a variety of systems, intended for small, high trust servers.",
+    "authors": [
+        "Lolaso6809"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/gamers.inc"
+    },
+    "license": "LicenseRef-All-Rights-Reserved",
+    "icon": "pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

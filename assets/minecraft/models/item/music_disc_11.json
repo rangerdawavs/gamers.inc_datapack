@@ -1,0 +1,38 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/music_disc_11"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/music_disc_demise"},
+		{"predicate": {"custom_model_data":2}, "model": "item/music_disc_medivo"},
+		{"predicate": {"custom_model_data":3}, "model": "item/music_disc_beastars_op"},
+		{"predicate": {"custom_model_data":4}, "model": "item/music_disc_boombastic"},
+		{"predicate": {"custom_model_data":5}, "model": "item/music_disc_doom"},
+		{"predicate": {"custom_model_data":6}, "model": "item/music_disc_el_sarpe"},
+		{"predicate": {"custom_model_data":7}, "model": "item/music_disc_golden_wind"},
+		{"predicate": {"custom_model_data":8}, "model": "item/music_disc_la_llave"},
+		{"predicate": {"custom_model_data":9}, "model": "item/music_disc_la_mama"},
+		{"predicate": {"custom_model_data":10}, "model": "item/music_disc_pillar_theme"},
+		{"predicate": {"custom_model_data":11}, "model": "item/music_disc_pizza_parlor"},
+		{"predicate": {"custom_model_data":12}, "model": "item/music_disc_rick_roll"},
+		{"predicate": {"custom_model_data":13}, "model": "item/music_disc_tokyo_ghoul"},
+		{"predicate": {"custom_model_data":14}, "model": "item/music_disc_wii_theme"},
+		{"predicate": {"custom_model_data":15}, "model": "item/music_disc_yoshis_lounge"},
+		{"predicate": {"custom_model_data":16}, "model": "item/music_disc_aot_op7"},
+		{"predicate": {"custom_model_data":17}, "model": "item/music_disc_bang"},
+		{"predicate": {"custom_model_data":18}, "model": "item/music_disc_cocoa"},
+		{"predicate": {"custom_model_data":19}, "model": "item/music_disc_deltarune_kq"},
+		{"predicate": {"custom_model_data":20}, "model": "item/music_disc_empires"},
+		{"predicate": {"custom_model_data":21}, "model": "item/music_disc_genshin1"},
+		{"predicate": {"custom_model_data":22}, "model": "item/music_disc_genshin2"},
+		{"predicate": {"custom_model_data":23}, "model": "item/music_disc_horny"},
+		{"predicate": {"custom_model_data":24}, "model": "item/music_disc_ice_fishing"},
+		{"predicate": {"custom_model_data":25}, "model": "item/music_disc_p_roki"},
+		{"predicate": {"custom_model_data":26}, "model": "item/music_disc_rat"},
+		{"predicate": {"custom_model_data":27}, "model": "item/music_disc_saib"},
+		{"predicate": {"custom_model_data":28}, "model": "item/music_disc_weed"},
+		{"predicate": {"custom_model_data":29}, "model": "item/music_disc_world_trigger"}
+	]
+}
