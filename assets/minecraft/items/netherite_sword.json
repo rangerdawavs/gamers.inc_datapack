@@ -1,0 +1,53 @@
+{
+	"model":{
+		"type": "select",
+		"property": "custom_model_data",
+		"cases": [
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/netherite_sword_katana"
+				},
+				"when": "Ginc.structures_test1:netherite_sword_katana"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/netherite_sword_katana_saber"
+				},
+				"when": "Ginc.structures_test1:netherite_sword_katana_saber"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/xiao_spear"
+				},
+				"when": "Ginc.structures_test1:xiao_spear"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/pos_trident"
+				},
+				"when": "Ginc.structures_test1:pos_trident"
+			}
+		],
+		"fallback": {
+			"type": "range_dispatch",
+			"property": "custom_model_data",
+			"fallback": {
+				"type": "model",
+			"model": "item/netherite_sword"
+			},
+			"entries": [
+				{
+					"model": {
+						"type": "model",
+						"model": "structures_test1:item/xiao_spear"
+					},
+					"threshold": 3
+				}
+			]
+		}
+	}
+}

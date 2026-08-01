@@ -1,0 +1,19 @@
+{
+	"model":{
+		"type": "select",
+		"property": "custom_model_data",
+		"cases": [
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/amethystaxe"
+				},
+				"when": "Ginc.structures_test1:amethystaxe"
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "item/netherite_axe"
+		}
+	}
+}

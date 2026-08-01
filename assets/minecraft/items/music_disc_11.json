@@ -1,0 +1,215 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"cases": [
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_demise"
+				},
+				"when": "Ginc.ipod:music_disc_demise"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_medivo"
+				},
+				"when": "Ginc.ipod:music_disc_medivo"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_beastars_op"
+				},
+				"when": "Ginc.ipod:music_disc_beastars_op"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_boombastic"
+				},
+				"when": "Ginc.ipod:music_disc_boombastic"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_doom"
+				},
+				"when": "Ginc.ipod:music_disc_doom"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_el_sarpe"
+				},
+				"when": "Ginc.ipod:music_disc_el_sarpe"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_golden_wind"
+				},
+				"when": "Ginc.ipod:music_disc_golden_wind"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_la_llave"
+				},
+				"when": "Ginc.ipod:music_disc_la_llave"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_la_mama"
+				},
+				"when": "Ginc.ipod:music_disc_la_mama"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_pillar_theme"
+				},
+				"when": "Ginc.ipod:music_disc_pillar_theme"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_pizza_parlor"
+				},
+				"when": "Ginc.ipod:music_disc_pizza_parlor"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_rick_roll"
+				},
+				"when": "Ginc.ipod:music_disc_rick_roll"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_tokyo_ghoul"
+				},
+				"when": "Ginc.ipod:music_disc_tokyo_ghoul"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_wii_theme"
+				},
+				"when": "Ginc.ipod:music_disc_wii_theme"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_yoshis_lounge"
+				},
+				"when": "Ginc.ipod:music_disc_yoshis_lounge"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_aot_op7"
+				},
+				"when": "Ginc.ipod:music_disc_aot_op7"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_bang"
+				},
+				"when": "Ginc.ipod:music_disc_bang"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_cocoa"
+				},
+				"when": "Ginc.ipod:music_disc_cocoa"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_deltarune_kq"
+				},
+				"when": "Ginc.ipod:music_disc_deltarune_kq"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_empires"
+				},
+				"when": "Ginc.ipod:music_disc_empires"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_genshin1"
+				},
+				"when": "Ginc.ipod:music_disc_genshin1"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_genshin2"
+				},
+				"when": "Ginc.ipod:music_disc_genshin2"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_horny"
+				},
+				"when": "Ginc.ipod:music_disc_horny"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_ice_fishing"
+				},
+				"when": "Ginc.ipod:music_disc_ice_fishing"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_p_roki"
+				},
+				"when": "Ginc.ipod:music_disc_p_roki"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_rat"
+				},
+				"when": "Ginc.ipod:music_disc_rat"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_saib"
+				},
+				"when": "Ginc.ipod:music_disc_saib"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_weed"
+				},
+				"when": "Ginc.ipod:music_disc_weed"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "ipod:item/music_disc_world_trigger"
+				},
+				"when": "Ginc.ipod:music_disc_world_trigger"
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "item/music_disc_11"
+		}
+	}
+}

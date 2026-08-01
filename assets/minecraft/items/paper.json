@@ -1,0 +1,33 @@
+{
+	"model":{
+		"type": "select",
+		"property": "custom_model_data",
+		"cases": [
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/xiao_img1"
+				},
+				"when": "Ginc.structures_test1:xiao_img1"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/mona_img1"
+				},
+				"when": "Ginc.structures_test1:mona_img1"
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "structures_test1:item/techno_crown"
+				},
+				"when": "Ginc.structures_test1:techno_crown"
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "item/paper"
+		}
+	}
+}

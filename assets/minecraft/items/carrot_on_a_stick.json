@@ -1,0 +1,68 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "custom_model_data",
+		"cases": [
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_floaty_boots"
+				},
+				"when": "Ginc.elemental_powers:floaty_boots"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_scan"
+				},
+				"when": "Ginc.elemental_powers:scan"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_shockwave"
+				},
+				"when": "Ginc.elemental_powers:shockwave"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_vine"
+				},
+				"when": "Ginc.elemental_powers:vine"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_superspeed"
+				},
+				"when": "Ginc.elemental_powers:superspeed"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_fireball"
+				},
+				"when": "Ginc.elemental_powers:fireball"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_lightningstorm_strike"
+				},
+				"when": "Ginc.elemental_powers:lightningstorm_strike"
+			},
+			{
+				"model": {
+					"type":"model",
+					"model": "elemental_powers:item/elemental_powers_dolphin_grace"
+				},
+				"when": "Ginc.elemental_powers:dolphin_grace"
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "minecraft:item/carrot_on_a_stick"
+		}
+	}
+}
