@@ -1,0 +1,22 @@
+{
+    "values": [
+        {
+            "id": "horse"
+        },
+        {
+            "id": "donkey"
+        },
+        {
+            "id": "mule"
+        },
+        {
+            "id": "zombie_horse"
+        },
+        {
+            "id": "camel"
+        },
+        {
+            "id": "camel_husk"
+        }
+    ]
+}

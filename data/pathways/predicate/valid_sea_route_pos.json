@@ -1,0 +1,51 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "overworld"
+            }
+        },
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#pathways:valid_sea_route_blocks"
+                        }
+                    }
+                },
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#pathways:valid_sea_route_blocks"
+                        }
+                    },
+                    "offsetY": -0.5
+                },
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#pathways:valid_sea_route_blocks"
+                        }
+                    },
+                    "offsetY": -1
+                },
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "#pathways:valid_sea_route_blocks"
+                        }
+                    },
+                    "offsetY": -1.5
+                }
+            ]
+        }
+    ]
+}

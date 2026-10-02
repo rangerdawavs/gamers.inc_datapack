@@ -1,0 +1,9 @@
+execute positioned ~16 ~ ~16 run function pathways:forceload_test
+execute positioned ~16 ~ ~ run function pathways:forceload_test
+execute positioned ~16 ~ ~-16 run function pathways:forceload_test
+execute positioned ~ ~ ~16 run function pathways:forceload_test
+execute positioned ~ ~ ~ run function pathways:forceload_test
+execute positioned ~ ~ ~-16 run function pathways:forceload_test
+execute positioned ~-16 ~ ~16 run function pathways:forceload_test
+execute positioned ~-16 ~ ~ run function pathways:forceload_test
+execute positioned ~-16 ~ ~-16 run function pathways:forceload_test

@@ -1,0 +1,21 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "pathways:valid_land_route_pos"
+        },
+        {
+            "condition": "reference",
+            "name": "pathways:valid_sea_route_pos"
+        },
+        {
+            "condition": "reference",
+            "name": "pathways:valid_air_route_pos"
+        },
+        {
+            "condition": "reference",
+            "name": "pathways:valid_rail_route_start"
+        }
+    ]
+}

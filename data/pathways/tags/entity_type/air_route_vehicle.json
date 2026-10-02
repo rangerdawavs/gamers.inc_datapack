@@ -1,0 +1,38 @@
+{
+    "values": [
+        {
+            "id": "#boat"
+        },
+        {
+            "id": "cherry_chest_boat"
+        },
+        {
+            "id": "oak_chest_boat"
+        },
+        {
+            "id": "birch_chest_boat"
+        },
+        {
+            "id": "acacia_chest_boat"
+        },
+        {
+            "id": "bamboo_chest_raft"
+        },
+        {
+            "id": "jungle_chest_boat"
+        },
+        {
+            "id": "spruce_chest_boat"
+        },
+        {
+            "id": "dark_oak_chest_boat"
+        },
+        {
+            "id": "mangrove_chest_boat"
+        },
+        {
+            "id": "poplar_chest_boat",
+            "required": false
+        }
+    ]
+}

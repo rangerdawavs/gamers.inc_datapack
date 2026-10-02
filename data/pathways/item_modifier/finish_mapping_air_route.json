@@ -1,0 +1,33 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "pathways:route_mapper": 0
+        }
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "item_name": "air_route"
+        }
+    },
+    {
+        "function": "copy_custom_data",
+        "source": {
+            "type": "storage",
+            "source": "pathways:data"
+        },
+        "ops": [
+            {
+                "op": "replace",
+                "source": "temp_custom_data.route",
+                "target": "route"
+            },
+            {
+                "op": "replace",
+                "source": "temp_custom_data.step",
+                "target": "final"
+            }
+        ]
+    }
+]

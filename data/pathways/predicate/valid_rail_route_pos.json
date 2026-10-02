@@ -1,0 +1,46 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "rail",
+                        "powered_rail",
+                        "detector_rail",
+                        "activator_rail"
+                    ]
+                }
+            },
+            "offsetY": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "rail",
+                        "powered_rail",
+                        "detector_rail",
+                        "activator_rail"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "rail",
+                        "powered_rail",
+                        "detector_rail",
+                        "activator_rail"
+                    ]
+                }
+            },
+            "offsetY": 1
+        }
+    ]
+}

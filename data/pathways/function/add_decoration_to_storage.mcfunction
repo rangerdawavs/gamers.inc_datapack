@@ -1,0 +1,1 @@
+$data modify storage pathways:data route_decorations.route$(route).route$(route)_step$(step) set value {type:"player_off_limits",rotation:0,x:$(x),z:$(z)}

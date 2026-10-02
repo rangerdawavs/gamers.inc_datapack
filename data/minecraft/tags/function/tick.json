@@ -15,6 +15,7 @@
 		"creative_zone:wrong_area_detection_tick",
 		"creative_zone:detect_trigger",
 		"ipod:enable_tick",
-		"enchanted_core:tick"
+		"enchanted_core:tick",
+		"pathways:tick"
 	]
 }

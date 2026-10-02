@@ -1,0 +1,1 @@
+$execute as @e[type=#pathways:sea_air_route_vehicle,nbt={leash:{UUID:$(UUID)}}] run execute if data entity @s Items run data modify storage pathways:data temp.port_transfer.Items set from entity @s Items

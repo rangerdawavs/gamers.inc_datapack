@@ -1,0 +1,1 @@
+$data modify entity @s leash set value [I;$(x),$(y),$(z)]

@@ -1,5 +1,5 @@
 {
-    "description": "ground swimming",
+    "description": "pathinator",
     "supported_items": "minecraft:clock",
     "weight": 1,
     "max_level": 1,
@@ -20,7 +20,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "elemental_powers:ground_type/enter_ground_swimming_macro"
+                    "function": "pathways:pathinator"
                 },
                 "requirements": {
                     "condition": "all_of",
@@ -29,7 +29,10 @@
                             "condition": "location_check",
                             "predicate": {
                                 "block": {
-                                    "blocks": "#elemental_powers:ground_can_swim"
+                                    "blocks": [
+                                        "grass_block",
+                                        "dirt_path"
+                                    ]
                                 }
                             }
                         }

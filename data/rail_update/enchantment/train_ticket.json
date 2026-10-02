@@ -31,6 +31,22 @@
                     }
                 }
             }
+        ],
+        "hit_block": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "pathways:train_ticket_lc_barrel"
+                },
+                "requirements": {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "barrel"
+                        }
+                    }
+                }
+            }
         ]
     }
 }

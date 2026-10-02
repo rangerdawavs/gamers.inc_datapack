@@ -1,0 +1,9 @@
+execute positioned ~1 ~ ~1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~1 ~ ~ if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~1 ~ ~-1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~ ~ ~1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~ ~ ~ if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~ ~ ~-1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~-1 ~ ~1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~-1 ~ ~ if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path
+execute positioned ~-1 ~ ~-1 if block ~ ~ ~ grass_block run setblock ~ ~ ~ dirt_path

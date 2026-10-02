@@ -1,0 +1,22 @@
+{
+    "values": [
+        {
+            "id": "dirt_path"
+        },
+        {
+            "id": "#minecraft:wooden_slabs"
+        },
+        {
+            "id": "#minecraft:wooden_stairs"
+        },
+        {
+            "id": "cobblestone"
+        },
+        {
+            "id": "cobblestone_slab"
+        },
+        {
+            "id": "cobbled_deepslate_stairs"
+        }
+    ]
+}

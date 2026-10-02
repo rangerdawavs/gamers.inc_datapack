@@ -1,0 +1,1 @@
+$data modify storage pathways:data route_decorations.route$(route).route$(route)_start set value {type:"red_marker",rotation:0,x:$(x),z:$(z)}

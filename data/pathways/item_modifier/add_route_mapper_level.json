@@ -1,0 +1,7 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "pathways:route_mapper": 1
+    },
+    "add": true
+}

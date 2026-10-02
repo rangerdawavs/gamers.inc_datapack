@@ -1,0 +1,43 @@
+{
+    "description": "simple_walk",
+    "supported_items": "clock",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "pathways:simple_walk"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "predicate": {
+                        "periodic_tick": 2
+                    },
+                    "entity": "this"
+                }
+            }
+        ],
+        "location_changed": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "pathways:load_nearby_chunks"
+                }
+            }
+        ]
+    }
+}

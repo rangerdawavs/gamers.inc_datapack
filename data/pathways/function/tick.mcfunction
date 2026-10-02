@@ -1,0 +1,1 @@
+execute as @e[type=#pathways:rail_route_vehicle,tag=pathways.forceloading_entity] at @s run function pathways:rail_vehicle_tick

@@ -1,0 +1,12 @@
+tag @s add pathways.temp
+#execute store result score @s pathways.simple_walk_step_home_pos run scoreboard players get @s pathways.simple_walk_step 
+#execute as @e[type=marker,distance=..30,name="pathways:simple_checkpoint"] run execute if score @s pathways.simple_walk_route = @e[tag=pathways.temp,limit=1] pathways.simple_walk_route if score @s pathways.simple_walk_step = @e[tag=pathways.temp,limit=1] pathways.simple_walk_step run execute if entity @e[tag=pathways.temp,distance=..5,limit=1] run scoreboard players add @e[tag=pathways.temp,distance=..5,limit=1] pathways.simple_walk_step_home_pos 1
+execute as @e[type=marker,distance=..30,name="pathways:simple_checkpoint"] run execute if score @s pathways.simple_walk_route = @e[tag=pathways.temp,limit=1] pathways.simple_walk_route if score @s pathways.simple_walk_step = @e[tag=pathways.temp,limit=1] pathways.simple_walk_step run data modify storage pathways:data temp.UUID set from entity @s UUID
+#execute as @e[type=marker,distance=..30,name="pathways:simple_checkpoint"] run execute if score @s pathways.simple_walk_route = @e[tag=pathways.temp,limit=1] pathways.simple_walk_route if score @s pathways.simple_walk_step = @e[tag=pathways.temp,limit=1] pathways.simple_walk_step run execute store result storage pathways:data temp.x int 1 run data get entity @s Pos[0]
+#execute as @e[type=marker,distance=..30,name="pathways:simple_checkpoint"] run execute if score @s pathways.simple_walk_route = @e[tag=pathways.temp,limit=1] pathways.simple_walk_route if score @s pathways.simple_walk_step = @e[tag=pathways.temp,limit=1] pathways.simple_walk_step run execute store result storage pathways:data temp.y int 1 run data get entity @s Pos[1]
+#execute as @e[type=marker,distance=..30,name="pathways:simple_checkpoint"] run execute if score @s pathways.simple_walk_route = @e[tag=pathways.temp,limit=1] pathways.simple_walk_route if score @s pathways.simple_walk_step = @e[tag=pathways.temp,limit=1] pathways.simple_walk_step run execute store result storage pathways:data temp.z int 1 run data get entity @s Pos[2]
+execute store result storage pathways:data temp.x int 1 run data get entity @s Pos[0]
+execute store result storage pathways:data temp.y int 1 run data get entity @s Pos[1]
+execute store result storage pathways:data temp.z int 1 run data get entity @s Pos[2]
+tag @s remove pathways.temp
+function pathways:simple_walk_run_step with storage pathways:data temp

@@ -14,6 +14,7 @@
 		"ui:init",
 		"custom_food:load",
 		"#load:_private/load",
-		"rail_update:load"
+		"rail_update:load",
+		"pathways:setup"
 	]
 }

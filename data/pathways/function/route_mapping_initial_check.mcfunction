@@ -1,0 +1,1 @@
+execute positioned ~ ~0.5 ~ if entity @e[type=item_frame,distance=..1] run execute at @s if predicate pathways:valid_route_start run function pathways:route_mapping_started

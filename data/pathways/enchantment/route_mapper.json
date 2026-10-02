@@ -1,0 +1,104 @@
+{
+    "description": "route_mapper",
+    "supported_items": "filled_map",
+    "weight": 1,
+    "max_level": 2,
+    "min_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 100,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "pathways:route_mapping_initial_check"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "value_check",
+                            "value": {
+                                "type": "enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 1,
+                                    "per_level_above_first": 1
+                                }
+                            },
+                            "range": 1
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "barrel"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "pathways:route_mapping_end_check"
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "value_check",
+                            "value": {
+                                "type": "enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 1,
+                                    "per_level_above_first": 1
+                                }
+                            },
+                            "range": 2
+                        },
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "barrel"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "pathways:mapping_route_tick"
+                },
+                "requirements": {
+                    "condition": "value_check",
+                    "value": {
+                        "type": "enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 1,
+                            "per_level_above_first": 1
+                        }
+                    },
+                    "range": 2
+                }
+            }
+        ]
+    }
+}

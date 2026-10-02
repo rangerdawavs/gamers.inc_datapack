@@ -1,0 +1,2 @@
+execute as @e[type=marker,name="pathways:forceloader"] at @s unless entity @e[tag=pathways.forceloading_entity,distance=..30] run function pathways:kill_forceloader
+schedule function pathways:100t_recursive 100t

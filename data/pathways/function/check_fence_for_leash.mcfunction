@@ -1,0 +1,10 @@
+execute if entity @e[type=item_frame,distance=..10,sort=nearest,limit=1] at @e[type=item_frame,distance=..10,sort=nearest,limit=1] positioned ~ ~-1.5 ~1 if block ~ ~ ~ #fences run summon marker ~ ~ ~ {CustomName:"pathways:temp_leash_mark"}
+execute if entity @e[type=item_frame,distance=..10,sort=nearest,limit=1] at @e[type=item_frame,distance=..10,sort=nearest,limit=1] positioned ~ ~-1.5 ~-1 if block ~ ~ ~ #fences run summon marker ~ ~ ~ {CustomName:"pathways:temp_leash_mark"}
+execute if entity @e[type=item_frame,distance=..10,sort=nearest,limit=1] at @e[type=item_frame,distance=..10,sort=nearest,limit=1] positioned ~1 ~-1.5 ~ if block ~ ~ ~ #fences run summon marker ~ ~ ~ {CustomName:"pathways:temp_leash_mark"}
+execute if entity @e[type=item_frame,distance=..10,sort=nearest,limit=1] at @e[type=item_frame,distance=..10,sort=nearest,limit=1] positioned ~-1 ~-1.5 ~ if block ~ ~ ~ #fences run summon marker ~ ~ ~ {CustomName:"pathways:temp_leash_mark"}
+execute if entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] store result storage pathways:data temp.x int 1 run data get entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] Pos[0]
+execute if entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] store result storage pathways:data temp.y int 1 run data get entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] Pos[1]
+execute if entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] store result storage pathways:data temp.z int 1 run data get entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] Pos[2]
+execute if entity @e[type=marker,name="pathways:temp_leash_mark",sort=nearest,limit=1] run function pathways:leash_at_end_of_route with storage pathways:data temp
+kill @e[type=marker,name="pathways:temp_leash_mark"]
+execute unless data entity @s leash run summon item ~ ~ ~ {Item:{id:lead}}

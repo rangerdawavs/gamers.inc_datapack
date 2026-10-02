@@ -1,0 +1,1 @@
+$data modify storage pathways:data route_decorations.route$(route).route$(route)_end set value {type:"target_point",rotation:180,x:$(x),z:$(z)}

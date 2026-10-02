@@ -1,0 +1,1 @@
+execute positioned ~ ~0.5 ~ if entity @e[type=item_frame,distance=..1] run function pathways:route_mapping_end

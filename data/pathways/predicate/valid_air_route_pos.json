@@ -1,0 +1,34 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "dimension": "overworld"
+            }
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "air"
+                        }
+                    },
+                    "offsetY": -1
+                },
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "air"
+                        }
+                    },
+                    "offsetY": -2
+                }
+            ]
+        }
+    ]
+}
